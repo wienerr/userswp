@@ -1,0 +1,4353 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: UsersWP 1.1.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-28 10:28+0530\n"
+"PO-Revision-Date: 2019-09-16 09:50+0000\n"
+"Last-Translator: rafiw <wiener.rafi@gmail.com>\n"
+"Language-Team: 日本語\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_n_noop:1,2;_nx:1,"
+"2;_x;_ex;esc_attr_e;esc_attr__\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Loco-Version: 2.3.0; wp-5.2.3"
+
+#: admin/class-admin.php:99
+msgid "Field key must not be blank"
+msgstr "フィールドキーは空白にできません"
+
+#: admin/class-admin.php:100
+msgid "Option Values must not be blank"
+msgstr ""
+"オプション値は空白にできません\n"
+
+#: admin/class-admin.php:101
+msgid "Please do not use special character and spaces in field key."
+msgstr "フィールドキーには特殊文字とスペースを使用しないでください。"
+
+#: admin/class-admin.php:102
+msgid "Field key should be a unique name."
+msgstr "フィールドキーは一意の名前にする必要があります。"
+
+#: admin/class-admin.php:103
+msgid "Are you sure you wish to delete this field?"
+msgstr ""
+"このフィールドを削除してもよろしいですか？\n"
+
+#: admin/class-admin.php:104
+msgid "This field is required."
+msgstr "この項目は必須です。"
+
+#: admin/class-admin.php:106
+msgid "Choose an image"
+msgstr "画像を選ぶ"
+
+#: admin/class-admin.php:107
+msgid "Use image"
+msgstr "画像を使用"
+
+#: admin/class-uwp-admin-menus.php:91
+msgid "UsersWP Settings"
+msgstr "UsersWP設定"
+
+#: admin/class-uwp-admin-menus.php:92 admin/menus/class-menus.php:285
+#: includes/class-uwp-privacy.php:17
+msgid "UsersWP"
+msgstr "ユーザーWP"
+
+#: admin/class-uwp-admin-menus.php:103 admin/class-uwp-admin-menus.php:104
+msgid "Form Builder"
+msgstr "フォームビルダー"
+
+#: admin/class-uwp-admin-menus.php:122 admin/class-uwp-admin-menus.php:123
+msgid "Status"
+msgstr "状態"
+
+#: admin/class-uwp-admin-menus.php:140
+msgid "UsersWP extensions"
+msgstr "UsersWP拡張機能"
+
+#: admin/class-uwp-admin-menus.php:141
+msgid "Extensions"
+msgstr "拡張機能"
+
+#: admin/menus/class-menus.php:49
+msgid "Common"
+msgstr "一般"
+
+#: admin/menus/class-menus.php:52
+msgid "Logged-In"
+msgstr "ログイン済み"
+
+#: admin/menus/class-menus.php:55
+msgid "Logged-Out"
+msgstr "ログアウト済み"
+
+#: admin/menus/class-menus.php:101
+msgid "Select all"
+msgstr ""
+"すべて選択\n"
+
+#: admin/menus/class-menus.php:104
+msgid "Add to Menu"
+msgstr "Add to Menu"
+
+#: admin/menus/class-menus.php:171
+msgid "Log out"
+msgstr "ログアウト"
+
+#: admin/settings/class-formbuilder.php:36 includes/class-pages.php:436
+#: templates/change.php:12
+msgid "Account"
+msgstr "アカウント"
+
+#: admin/settings/class-formbuilder.php:37
+#: admin/settings/class-uwp-settings-general.php:71
+#: includes/class-pages.php:434
+msgid "Register"
+msgstr "登録"
+
+#: admin/settings/class-formbuilder.php:75
+msgid "Add new form field"
+msgstr "新しいフォームフィールドを追加"
+
+#: admin/settings/class-formbuilder.php:81
+#, php-format
+msgid ""
+"Click on any box below to add a field of that type on %s form. You must be "
+"use a fieldset to group your fields."
+msgstr "下の任意のボックスをクリックして、％sフォームにそのタイプのフィールドを追加します。"
+
+#: admin/settings/class-formbuilder.php:87
+msgid "Setup New Field"
+msgstr "新しいフィールドを設定"
+
+#: admin/settings/class-formbuilder.php:98
+msgid "Predefined Fields"
+msgstr ""
+"定義済みフィールド\n"
+
+#: admin/settings/class-formbuilder.php:116
+msgid "List of fields those will appear on add new listing form"
+msgstr "新しいリスティングの追加フォームに表示されるフィールドのリスト"
+
+#: admin/settings/class-formbuilder.php:123
+#, php-format
+msgid ""
+"Click to expand and view field related settings. You may drag and drop to "
+"arrange fields order on %s form too."
+msgstr "クリックして展開し、フィールド関連の設定を表示します。 ドラッグアンドドロップして、％sフォームでもフィールドの順序を調整できます。"
+
+#: admin/settings/class-formbuilder.php:170
+msgid "Fieldset (section separator)"
+msgstr "フィールドセット（セクション区切り記号）"
+
+#: admin/settings/class-formbuilder.php:172
+msgid "This adds a section separator with a title."
+msgstr "これにより、タイトルにセクション区切り記号が追加されます。"
+
+#: admin/settings/class-formbuilder.php:211
+msgid "There are no custom fields here yet."
+msgstr "ここにはまだカスタムフィールドがありません。"
+
+#: admin/settings/class-formbuilder.php:230
+msgid "Country"
+msgstr "国"
+
+#: admin/settings/class-formbuilder.php:231
+msgid "Adds a input for Country field."
+msgstr "国フィールドへの入力を追加します。"
+
+#: admin/settings/class-formbuilder.php:251
+msgid "Gender"
+msgstr "性別"
+
+#: admin/settings/class-formbuilder.php:252
+msgid "Adds a input for Gender field."
+msgstr "性別フィールドの入力を追加します。"
+
+#: admin/settings/class-formbuilder.php:260
+msgid "Select Gender/,Male,Female,Other"
+msgstr "性別/、男性、女性、その他を選択"
+
+#: admin/settings/class-formbuilder.php:272
+msgid "Mobile"
+msgstr "モバイル"
+
+#: admin/settings/class-formbuilder.php:273
+msgid "Adds a input for Mobile field."
+msgstr "[モバイル]フィールドの入力を追加します。"
+
+#: admin/settings/class-formbuilder.php:303
+msgid "Text"
+msgstr "テキスト"
+
+#: admin/settings/class-formbuilder.php:304
+msgid "Add any sort of text field, text or numbers"
+msgstr "あらゆる種類のテキストフィールド、テキストまたは数字を追加します"
+
+#: admin/settings/class-formbuilder.php:310
+msgid "Date"
+msgstr "日付"
+
+#: admin/settings/class-formbuilder.php:311
+msgid "Adds a date picker."
+msgstr "日付ピッカーを追加します。"
+
+#: admin/settings/class-formbuilder.php:317
+msgid "Textarea"
+msgstr "テキストエリア"
+
+#: admin/settings/class-formbuilder.php:318
+msgid "Adds a textarea"
+msgstr "テキストエリアを追加します"
+
+#: admin/settings/class-formbuilder.php:324
+msgid "Time"
+msgstr "時間"
+
+#: admin/settings/class-formbuilder.php:325
+msgid "Adds a time picker"
+msgstr "タイムピッカーを追加します"
+
+#: admin/settings/class-formbuilder.php:331
+msgid "Checkbox"
+msgstr ""
+"チェックボックス\n"
+
+#: admin/settings/class-formbuilder.php:332
+msgid "Adds a checkbox"
+msgstr "チェックボックスを追加します"
+
+#: admin/settings/class-formbuilder.php:338
+msgid "Phone"
+msgstr "電話"
+
+#: admin/settings/class-formbuilder.php:339
+msgid "Adds a phone input"
+msgstr "電話入力を追加します"
+
+#: admin/settings/class-formbuilder.php:345
+msgid "Radio"
+msgstr "ラヂオ"
+
+#: admin/settings/class-formbuilder.php:346
+msgid "Adds a radio input"
+msgstr "ラジオ入力を追加します"
+
+#: admin/settings/class-formbuilder.php:352 includes/class-activator.php:330
+#: includes/class-activator.php:599
+msgid "Email"
+msgstr "Eメール"
+
+#: admin/settings/class-formbuilder.php:353
+msgid "Adds a email input"
+msgstr "電子メール入力を追加します"
+
+#: admin/settings/class-formbuilder.php:359
+#: admin/settings/class-formbuilder.php:1859
+msgid "Select"
+msgstr "選択"
+
+#: admin/settings/class-formbuilder.php:360
+msgid "Adds a select input"
+msgstr "選択入力を追加します"
+
+#: admin/settings/class-formbuilder.php:366
+msgid "Multi Select"
+msgstr "複数選択"
+
+#: admin/settings/class-formbuilder.php:367
+msgid "Adds a multiselect input"
+msgstr "複数選択入力を追加します"
+
+#: admin/settings/class-formbuilder.php:373
+msgid "URL"
+msgstr "URL"
+
+#: admin/settings/class-formbuilder.php:374
+msgid "Adds a url input"
+msgstr "URL入力を追加します"
+
+#: admin/settings/class-formbuilder.php:380
+msgid "File Upload"
+msgstr "ファイルのアップロード"
+
+#: admin/settings/class-formbuilder.php:381
+msgid "Adds a file input"
+msgstr "ファイル入力を追加します"
+
+#: admin/settings/class-formbuilder.php:515
+#: admin/settings/class-formbuilder.php:2132
+msgid "Fieldset:"
+msgstr "フィールドセット："
+
+#: admin/settings/class-formbuilder.php:578
+msgid "This will be the label for the field."
+msgstr "これがフィールドのラベルになります。"
+
+#: admin/settings/class-formbuilder.php:579
+msgid "Field Label:"
+msgstr "フィールドラベル："
+
+#: admin/settings/class-formbuilder.php:604
+msgid ""
+"If your form label is different, then you can fill this field. Ex: You would "
+"like to display \"What is your age?\" in Form Field but would like to "
+"display \"DOB\" in site. In such cases \"What is your age?\" should be "
+"entered here and \"DOB\" should be entered in previous field. Note: If this "
+"field not filled, then the previous field will be used in Form. "
+msgstr ""
+"フォームラベルが異なる場合は、このフィールドに入力できます。 例：「あなたの年齢は？」と表示します。 "
+"フォームフィールドにあるが、サイトに「DOB」を表示したい。 そのような場合、「あなたの年齢は？」 "
+"ここに入力し、前のフィールドに「DOB」を入力する必要があります。 注：このフィールドが入力されていない場合、前のフィールドがフォームで使用されます。"
+
+#: admin/settings/class-formbuilder.php:605
+msgid "Form Label: (Optional)"
+msgstr "フォームラベル：（オプション）"
+
+#: admin/settings/class-formbuilder.php:631
+msgid ""
+"This is a unique identifier used in the HTML, it MUST NOT contain spaces or "
+"special characters."
+msgstr "これはHTMLで使用される一意の識別子であり、スペースや特殊文字を含めることはできません。"
+
+#: admin/settings/class-formbuilder.php:632
+msgid "Field Key :"
+msgstr "フィールドキー："
+
+#: admin/settings/class-formbuilder.php:635
+msgid "Must not contain spaces or special characters"
+msgstr "スペースまたは特殊文字を含めることはできません"
+
+#: admin/settings/class-formbuilder.php:660
+msgid "If no is selected then the field will not be displayed anywhere."
+msgstr "noを選択すると、フィールドはどこにも表示されません。"
+
+#: admin/settings/class-formbuilder.php:661
+msgid "Is active :"
+msgstr "アクティブです ："
+
+#: admin/settings/class-formbuilder.php:689
+msgid "If yes is selected then only site admin can see and edit this field."
+msgstr "「はい」を選択すると、サイト管理者のみがこのフィールドを表示および編集できます。"
+
+#: admin/settings/class-formbuilder.php:690
+msgid "For admin use only? :"
+msgstr "管理者のみが使用しますか？"
+
+#: admin/settings/class-formbuilder.php:717
+msgid "If no is selected then the field will not be visible to other users."
+msgstr "noが選択されている場合、フィールドは他のユーザーには表示されません。"
+
+#: admin/settings/class-formbuilder.php:718
+msgid "Is Public :"
+msgstr "公開されています："
+
+#: admin/settings/class-formbuilder.php:728 includes/helpers/misc.php:706
+msgid "Yes"
+msgstr "はい(Yes)"
+
+#: admin/settings/class-formbuilder.php:729 includes/helpers/misc.php:705
+msgid "No"
+msgstr "いえ(No)"
+
+#: admin/settings/class-formbuilder.php:730
+msgid "Let User Decide"
+msgstr "ユーザーに決定させる"
+
+#: admin/settings/class-formbuilder.php:756
+msgid "Should the checkbox be checked by default?"
+msgstr "チェックボックスはデフォルトでチェックされるべきですか？"
+
+#: admin/settings/class-formbuilder.php:758
+msgid "A default value for the field, usually blank. Ex: info@mysite.com"
+msgstr "フィールドのデフォルト値。通常は空白です。 例：info@mysite.com"
+
+#: admin/settings/class-formbuilder.php:760
+msgid ""
+"A default value for the field, usually blank. (for \"link\" this will be "
+"used as the link text)"
+msgstr "フィールドのデフォルト値。通常は空白です。 （「リンク」の場合、これはリンクテキストとして使用されます）"
+
+#: admin/settings/class-formbuilder.php:764
+msgid "Default value :"
+msgstr ""
+"デフォルト値：\n"
+
+#: admin/settings/class-formbuilder.php:769
+msgid "Unchecked"
+msgstr "未チェック"
+
+#: admin/settings/class-formbuilder.php:770
+msgid "Checked"
+msgstr ""
+"チェック済み\n"
+
+#: admin/settings/class-formbuilder.php:773
+msgid "info@mysite.com"
+msgstr ""
+"info@mysite.com\n"
+
+#: admin/settings/class-formbuilder.php:810
+msgid "Select yes to set field as required"
+msgstr "はいを選択して、必要に応じてフィールドを設定します"
+
+#: admin/settings/class-formbuilder.php:811
+msgid "Is required :"
+msgstr "必要とされている ："
+
+#: admin/settings/class-formbuilder.php:839
+msgid ""
+"Enter text for the error message if the field is required and has not "
+"fulfilled the requirements."
+msgstr "フィールドが必須で、要件を満たしていない場合は、エラーメッセージのテキストを入力します。"
+
+#: admin/settings/class-formbuilder.php:840
+msgid "Required message:"
+msgstr ""
+"必須メッセージ：\n"
+
+#: admin/settings/class-formbuilder.php:883
+#, php-format
+msgid ""
+"Upload icon using media and enter its url path, or enter %sfont awesome%s "
+"class eg:\"fas fa-home\""
+msgstr ""
+"メディアを使用してアイコンをアップロードし、そのURLパスを入力するか、％sfont awesome％sクラスを入力します。例： \"fas fa-"
+"home\"\n"
+
+#: admin/settings/class-formbuilder.php:884
+msgid "Upload icon :"
+msgstr "アップロードアイコン："
+
+#: admin/settings/class-formbuilder.php:906
+msgid "Enter custom css class for field custom style."
+msgstr "フィールドカスタムスタイルのカスタムcssクラスを入力します。"
+
+#: admin/settings/class-formbuilder.php:907
+msgid "(Enter class `uwp-comma-list` to show list as comma separated)"
+msgstr "（クラス `uwp-comma-list`を入力して、リストをコンマ区切りで表示します）"
+
+#: admin/settings/class-formbuilder.php:912
+msgid "CSS class :"
+msgstr ""
+"CSSクラス：\n"
+
+#: admin/settings/class-formbuilder.php:940
+msgid "Select in what locations you want to display this field."
+msgstr "このフィールドを表示する場所を選択します。"
+
+#: admin/settings/class-formbuilder.php:941
+msgid "Show in what locations?:"
+msgstr "どの場所に表示しますか？："
+
+#: admin/settings/class-formbuilder.php:962
+msgid "Select locations"
+msgstr "場所を選択"
+
+#: admin/settings/class-formbuilder.php:1000
+#: admin/settings/class-formbuilder.php:2212
+msgid "Save"
+msgstr "保存"
+
+#: admin/settings/class-formbuilder.php:1003 includes/class-tools.php:519
+msgid "Remove"
+msgstr "削除"
+
+#: admin/settings/class-formbuilder.php:1201
+#: admin/settings/class-formbuilder.php:1220
+#: admin/settings/class-formbuilder.php:1251
+msgid "Column change failed, you may have too many columns."
+msgstr "列の変更に失敗しました。列が多すぎる可能性があります。"
+
+#: admin/settings/class-formbuilder.php:1353
+#: admin/settings/class-formbuilder.php:1395
+#: admin/settings/class-formbuilder.php:1409
+#: admin/settings/class-formbuilder.php:1462 includes/class-tools.php:50
+msgid ""
+"Column creation failed, you may have too many columns or the default value "
+"does not match with field data type."
+msgstr "列の作成に失敗しました。列が多すぎるか、デフォルト値がフィールドのデータ型と一致しません。"
+
+#: admin/settings/class-formbuilder.php:1422
+msgid ""
+"Column creation failed, you may have too many columns or the default value "
+"must have in valid date format."
+msgstr "列の作成に失敗しました。列が多すぎるか、デフォルト値に無効な日付形式が必要です。"
+
+#: admin/settings/class-formbuilder.php:1435
+msgid ""
+"Column creation failed, you may have too many columns or the default value "
+"must have in valid time format."
+msgstr "列の作成に失敗しました。列が多すぎるか、デフォルト値に無効な時刻形式が必要です。"
+
+#: admin/settings/class-formbuilder.php:1634
+msgid "Option Values should be separated by comma."
+msgstr ""
+"オプション値はコンマで区切る必要があります。\n"
+
+#: admin/settings/class-formbuilder.php:1636
+msgid ""
+"If using for a tick filter place a / and then either a 1 for true or 0 for "
+"false"
+msgstr "ティックフィルターに使用する場合、/を配置し、trueの場合は1を、falseの場合は0を配置します"
+
+#: admin/settings/class-formbuilder.php:1637
+msgid "eg: No Dogs Allowed/0,Dogs Allowed/1"
+msgstr "例：犬お断り / 0、許可されている犬 / 1"
+
+#: admin/settings/class-formbuilder.php:1640
+msgid "Like: Apple,Bannana,Pear,Peach"
+msgstr "好きなもの：リンゴ、バナナ、梨、桃"
+
+#: admin/settings/class-formbuilder.php:1641
+msgid ""
+"Or you can show Selection/Value shown: Pets Allowed/Yes,Pets not Allowed/No"
+msgstr ""
+"または、表示される選択/値を表示できます：ペットの許可/はい、ペットの許可/いいえ\n"
+
+#: admin/settings/class-formbuilder.php:1642
+msgid ""
+"- If using OPTGROUP tag to grouping options, use {optgroup}OPTGROUP-"
+"LABEL|OPTION-1,OPTION-2{/optgroup}"
+msgstr ""
+"-OPTGROUPタグを使用してオプションをグループ化する場合は、{optgroup} OPTGROUP-LABEL | OPTION-1、OPTION-"
+"2 {/ optgroup}を使用します"
+
+#: admin/settings/class-formbuilder.php:1643
+msgid ""
+"eg: {optgroup}Pets Allowed|No Dogs Allowed/0,Dogs Allowed/1{/optgroup},"
+"{optgroup}Sports|Cricket/Cricket,Football/Football,Hockey{/optgroup}"
+msgstr ""
+"例：{optgroup}ペットの許可|犬の許可なし/ 0、犬の許可/ 1 {/ optgroup}、{optgroup}"
+"スポーツ|クリケット/クリケット、サッカー/サッカー、ホッケー{/ optgroup}"
+
+#: admin/settings/class-formbuilder.php:1647
+msgid "Option Values :"
+msgstr ""
+"オプション値：\n"
+
+#: admin/settings/class-formbuilder.php:1654
+msgid "A full country list will be shown"
+msgstr "完全な国のリストが表示されます"
+
+#: admin/settings/class-formbuilder.php:1680
+msgid "Select the date format."
+msgstr "日付形式を選択します。"
+
+#: admin/settings/class-formbuilder.php:1681
+msgid "Date Format :"
+msgstr ""
+"日付形式：\n"
+
+#: admin/settings/class-formbuilder.php:1730
+msgid "Lets you display confirm password form field."
+msgstr "パスワード確認フォームフィールドを表示できます。"
+
+#: admin/settings/class-formbuilder.php:1731
+msgid "Display confirm password field?:"
+msgstr "パスワード確認フィールドを表示しますか？："
+
+#: admin/settings/class-formbuilder.php:1758
+msgid "Lets you display confirm email form field."
+msgstr "確認メールフォームフィールドを表示できます。"
+
+#: admin/settings/class-formbuilder.php:1759
+msgid "Display confirm email field?:"
+msgstr "確認メールフィールドを表示しますか？："
+
+#: admin/settings/class-formbuilder.php:1784
+msgid ""
+"Select file types to allowed for file uploading. (Select multiple file types "
+"by holding down \"Ctrl\" key.)"
+msgstr "ファイルのアップロードを許可するファイルタイプを選択します。 （「Ctrl」キーを押しながら複数のファイルタイプを選択します。）"
+
+#: admin/settings/class-formbuilder.php:1785
+msgid "Allowed file types :"
+msgstr "許可されているファイルタイプ："
+
+#: admin/settings/class-formbuilder.php:1789
+msgid "All types"
+msgstr "いろんなタイプ"
+
+#: admin/settings/class-formbuilder.php:1791
+#, php-format
+msgid "%s formats"
+msgstr "％s形式"
+
+#: admin/settings/class-formbuilder.php:1818
+msgid "Select Custom Field type"
+msgstr ""
+"カスタムフィールドタイプを選択\n"
+
+#: admin/settings/class-formbuilder.php:1819
+msgid "Field Data Type:"
+msgstr "フィールドデータタイプ："
+
+#: admin/settings/class-formbuilder.php:1828
+msgid "Text Field"
+msgstr "テキストフィールド"
+
+#: admin/settings/class-formbuilder.php:1832
+msgid "Number Field"
+msgstr ""
+"数値フィールド\n"
+
+#: admin/settings/class-formbuilder.php:1836
+msgid "Decimal Field"
+msgstr ""
+"小数フィールド\n"
+
+#: admin/settings/class-formbuilder.php:1854
+msgid "Decimal places to display after point"
+msgstr ""
+"ポイントの後に表示する小数点以下の場所\n"
+
+#: admin/settings/class-formbuilder.php:1855
+msgid "Select decimal precision:"
+msgstr ""
+"小数精度を選択します。\n"
+
+#: admin/settings/class-formbuilder.php:1896
+msgid ""
+"Lets you use this field as register form field, set from register tab above."
+msgstr "このフィールドを、上記の[登録]タブから設定した登録フォームフィールドとして使用できます。"
+
+#: admin/settings/class-formbuilder.php:1897
+msgid "Include this field in register form:"
+msgstr "登録フォームにこのフィールドを含めます。"
+
+#: admin/settings/class-formbuilder.php:1905
+msgid "This is mandatory register form field."
+msgstr "これは必須の登録フォームフィールドです。"
+
+#: admin/settings/class-formbuilder.php:1919
+msgid "Lets you use this field as register ONLY form field."
+msgstr "このフィールドをフォームフィールドのみの登録として使用できます。"
+
+#: admin/settings/class-formbuilder.php:1920
+msgid "Include this field ONLY in register form:"
+msgstr "このフィールドは、登録フォームにのみ含めてください。"
+
+#: admin/settings/class-formbuilder.php:1928
+msgid "This field is applicable only for register form."
+msgstr "このフィールドは、登録フォームにのみ適用されます。"
+
+#: admin/settings/class-formbuilder.php:1951
+msgid "Available register form fields."
+msgstr ""
+"利用可能な登録フォームフィールド。\n"
+
+#: admin/settings/class-formbuilder.php:1963
+msgid ""
+"Click on any box below to make it appear in register form. To make a field "
+"available here, go to account tab and expand any field from selected fields "
+"panel and tick the checkbox saying 'Include this field in register form'."
+msgstr ""
+"下のボックスをクリックして、登録フォームに表示します。 ここでフィールドを使用できるようにするには、[アカウント]"
+"タブに移動し、選択したフィールドパネルから任意のフィールドを展開し、[このフィールドを登録フォームに含める]チェックボックスをオンにします。"
+
+#: admin/settings/class-formbuilder.php:1975
+msgid "List of fields those will appear in register form."
+msgstr "登録フォームに表示されるフィールドのリスト。"
+
+#: admin/settings/class-formbuilder.php:1988
+msgid ""
+"Click to expand and view field related settings. You may drag and drop to "
+"arrange fields order in register form."
+msgstr "クリックして展開し、フィールド関連の設定を表示します。 登録フォームでフィールドの順序を調整するには、ドラッグアンドドロップできます。"
+
+#: admin/settings/class-formbuilder.php:2201
+msgid "No options available"
+msgstr ""
+"利用可能なオプションはありません\n"
+
+#: admin/settings/class-formbuilder.php:2214
+#: includes/libraries/class-geodirectory-plugin.php:821
+#: includes/libraries/class-geodirectory-plugin.php:1054
+msgid "Delete"
+msgstr "削除"
+
+#: admin/settings/class-formbuilder.php:2497
+msgid "Dummy Fieldset"
+msgstr "ダミーフィールドセット"
+
+#: admin/settings/class-formbuilder.php:2512
+msgid "Dummy Text"
+msgstr "ダミーテキスト"
+
+#: admin/settings/class-formbuilder.php:2527
+msgid "Dummy Textarea"
+msgstr "ダミーテキストエリア"
+
+#: admin/settings/class-formbuilder.php:2542
+msgid "Dummy Checkbox"
+msgstr "ダミーチェックボックス"
+
+#: admin/settings/class-formbuilder.php:2557
+msgid "Dummy Radio"
+msgstr "ダミーラジオ"
+
+#: admin/settings/class-formbuilder.php:2560
+msgid "Value1,Value2,Value3"
+msgstr "Value1、Value2、Value3"
+
+#: admin/settings/class-formbuilder.php:2572
+msgid "Dummy Select"
+msgstr "ダミーセレクト"
+
+#: admin/settings/class-formbuilder.php:2575
+#: admin/settings/class-formbuilder.php:2668
+msgid "Select Option/,Value1,Value2,Value3"
+msgstr "Option /、Value1、Value2、Value3を選択します"
+
+#: admin/settings/class-formbuilder.php:2587
+msgid "Dummy URL"
+msgstr "ダミーURL"
+
+#: admin/settings/class-formbuilder.php:2602
+msgid "Dummy Date"
+msgstr "ダミーデート"
+
+#: admin/settings/class-formbuilder.php:2620
+msgid "Dummy Time"
+msgstr "ダミータイム"
+
+#: admin/settings/class-formbuilder.php:2635
+msgid "Dummy Phone"
+msgstr "ダミー電話"
+
+#: admin/settings/class-formbuilder.php:2650
+msgid "Dummy Email"
+msgstr "ダミーメール"
+
+#: admin/settings/class-formbuilder.php:2665
+msgid "Dummy Multiselect"
+msgstr "ダミーマルチセレクト"
+
+#: admin/settings/class-formbuilder.php:2680
+msgid "Dummy File"
+msgstr "ダミーファイル"
+
+#: admin/settings/class-settings.php:75
+msgid "Action failed. Please refresh the page and retry."
+msgstr "アクションが失敗しました。 ページを更新して、再試行してください。"
+
+#: admin/settings/class-settings.php:83
+msgid "Your settings have been saved."
+msgstr "設定が保存されています。"
+
+#: admin/settings/class-settings.php:351
+msgid "Upload Image"
+msgstr "画像をアップロード"
+
+#: admin/settings/class-settings.php:352 includes/class-files.php:358
+msgid "Remove Image"
+msgstr "画像削除"
+
+#: admin/settings/class-settings.php:660
+msgid ""
+"The settings of this image size have been disabled because its values are "
+"being overwritten by a filter."
+msgstr "この画像サイズの設定は、フィルターによって値が上書きされるため無効になっています。"
+
+#: admin/settings/class-settings.php:669
+msgid "Hard crop?"
+msgstr "ハードクロップ？"
+
+#: admin/settings/class-settings.php:701
+msgid "Select a page&hellip;"
+msgstr "ページを選択＆help;"
+
+#: admin/settings/class-settings.php:704
+msgid "Edit Page"
+msgstr "ページを編集"
+
+#: admin/settings/class-settings.php:707
+msgid "View Page"
+msgstr "ページを表示"
+
+#: admin/settings/class-settings.php:828
+msgid "Documentation"
+msgstr "ドキュメンテーション"
+
+#: admin/settings/class-uwp-settings-addons.php:25
+#: admin/settings/class-uwp-settings-addons.php:65 includes/class-addons.php:26
+msgid "Addons"
+msgstr "アドオン"
+
+#: admin/settings/class-uwp-settings-addons.php:82
+msgid "UsersWP Addons"
+msgstr "UsersWPアドオン"
+
+#: admin/settings/class-uwp-settings-addons.php:84
+#, php-format
+msgid ""
+"Please select an addon to view its settings. Check our list of addons "
+"available for UsersWP %s here %s"
+msgstr ""
+"アドオンを選択して設定を表示してください。 UsersWP％sこちら％sで利用可能なアドオンのリストを確認してください\n"
+
+#: admin/settings/class-uwp-settings-emails.php:28
+msgid "Emails"
+msgstr "Eメール"
+
+#: admin/settings/class-uwp-settings-emails.php:67
+msgid "User Emails"
+msgstr "ユーザーのメール"
+
+#: admin/settings/class-uwp-settings-emails.php:68
+msgid "Admin Emails"
+msgstr "管理者のメール"
+
+#: admin/settings/class-uwp-settings-emails.php:79
+msgid "New account registration"
+msgstr "新規アカウント登録"
+
+#: admin/settings/class-uwp-settings-emails.php:82
+#: admin/settings/class-uwp-settings-emails.php:120
+#: admin/settings/class-uwp-settings-emails.php:153
+#: admin/settings/class-uwp-settings-emails.php:186
+#: admin/settings/class-uwp-settings-emails.php:219
+#: admin/settings/class-uwp-settings-emails.php:252
+#: admin/settings/class-uwp-settings-emails.php:285
+msgid "Enable email"
+msgstr "メールを有効にする"
+
+#: admin/settings/class-uwp-settings-emails.php:83
+msgid "Send an email to admin when user has created account on site."
+msgstr "ユーザーがサイトでアカウントを作成したら、管理者にメールを送信します。"
+
+#: admin/settings/class-uwp-settings-emails.php:89
+#: admin/settings/class-uwp-settings-emails.php:127
+#: admin/settings/class-uwp-settings-emails.php:160
+#: admin/settings/class-uwp-settings-emails.php:193
+#: admin/settings/class-uwp-settings-emails.php:226
+#: admin/settings/class-uwp-settings-emails.php:259
+#: admin/settings/class-uwp-settings-emails.php:292
+msgid "Subject"
+msgstr "件名"
+
+#: admin/settings/class-uwp-settings-emails.php:90
+#: admin/settings/class-uwp-settings-emails.php:128
+#: admin/settings/class-uwp-settings-emails.php:161
+#: admin/settings/class-uwp-settings-emails.php:194
+#: admin/settings/class-uwp-settings-emails.php:227
+#: admin/settings/class-uwp-settings-emails.php:260
+#: admin/settings/class-uwp-settings-emails.php:293
+msgid "The email subject."
+msgstr "メールの件名。"
+
+#: admin/settings/class-uwp-settings-emails.php:99
+#: admin/settings/class-uwp-settings-emails.php:137
+#: admin/settings/class-uwp-settings-emails.php:170
+#: admin/settings/class-uwp-settings-emails.php:203
+#: admin/settings/class-uwp-settings-emails.php:236
+#: admin/settings/class-uwp-settings-emails.php:269
+#: admin/settings/class-uwp-settings-emails.php:302
+msgid "Body"
+msgstr ""
+"体\n"
+
+#: admin/settings/class-uwp-settings-emails.php:100
+#: admin/settings/class-uwp-settings-emails.php:138
+#: admin/settings/class-uwp-settings-emails.php:171
+#: admin/settings/class-uwp-settings-emails.php:204
+#: admin/settings/class-uwp-settings-emails.php:237
+#: admin/settings/class-uwp-settings-emails.php:270
+#: admin/settings/class-uwp-settings-emails.php:303
+msgid "The email body, this can be text or HTML."
+msgstr "電子メールの本文。これはテキストまたはHTMLです。"
+
+#: admin/settings/class-uwp-settings-emails.php:107
+#: admin/settings/class-uwp-settings-emails.php:145
+#: admin/settings/class-uwp-settings-emails.php:178
+#: admin/settings/class-uwp-settings-emails.php:211
+#: admin/settings/class-uwp-settings-emails.php:244
+#: admin/settings/class-uwp-settings-emails.php:277
+#: admin/settings/class-uwp-settings-emails.php:310
+#: admin/settings/class-uwp-settings-general.php:492
+msgid "Available template tags:"
+msgstr ""
+"利用可能なテンプレートタグ：\n"
+
+#: admin/settings/class-uwp-settings-emails.php:117
+msgid "Registration activate email"
+msgstr "登録有効化メール"
+
+#: admin/settings/class-uwp-settings-emails.php:121
+msgid "Send an email to user for activation when registered."
+msgstr "登録時に、アクティベーションを求めるメールをユーザーに送信します。"
+
+#: admin/settings/class-uwp-settings-emails.php:150
+msgid "Registration success email"
+msgstr ""
+"登録済みメール\n"
+
+#: admin/settings/class-uwp-settings-emails.php:154
+msgid "Send an email to user for when successfull registration."
+msgstr "登録が成功したときにユーザーにメールを送信します。"
+
+#: admin/settings/class-uwp-settings-emails.php:183
+msgid "Forgot password email"
+msgstr "パスワードを忘れたメール"
+
+#: admin/settings/class-uwp-settings-emails.php:187
+msgid "Send an email to user for forgot password."
+msgstr "パスワードを忘れた場合は、ユーザーにメールを送信してください。"
+
+#: admin/settings/class-uwp-settings-emails.php:216
+msgid "Change password email"
+msgstr "パスワード変更メール"
+
+#: admin/settings/class-uwp-settings-emails.php:220
+msgid "Send an email to user for change password."
+msgstr "パスワードを変更するためのメールをユーザーに送信します。"
+
+#: admin/settings/class-uwp-settings-emails.php:249
+msgid "Reset password email"
+msgstr ""
+"パスワードをリセットするメール\n"
+
+#: admin/settings/class-uwp-settings-emails.php:253
+msgid "Send an email to user for reset password."
+msgstr "パスワードをリセットするためのメールをユーザーに送信します。"
+
+#: admin/settings/class-uwp-settings-emails.php:282
+msgid "Account update email"
+msgstr "アカウント更新メール"
+
+#: admin/settings/class-uwp-settings-emails.php:286
+msgid "Send an email to user when updating account details."
+msgstr "アカウントの詳細を更新するときに、ユーザーにメールを送信します。"
+
+#: admin/settings/class-uwp-settings-general.php:28
+#: admin/settings/class-uwp-settings-general.php:69
+msgid "General"
+msgstr "全般"
+
+#: admin/settings/class-uwp-settings-general.php:70
+msgid "Pages"
+msgstr ""
+"Pages\n"
+
+#: admin/settings/class-uwp-settings-general.php:72
+#: includes/class-pages.php:435 templates/login.php:7 templates/login.php:20
+#: widgets/login.php:44 widgets/login.php:110
+msgid "Login"
+msgstr "ログイン"
+
+#: admin/settings/class-uwp-settings-general.php:73
+#: includes/class-pages.php:439
+msgid "Change Password"
+msgstr "パスワード変更する"
+
+#: admin/settings/class-uwp-settings-general.php:74
+#: includes/class-pages.php:440 templates/change.php:12
+msgid "Profile"
+msgstr "プロフィール"
+
+#: admin/settings/class-uwp-settings-general.php:75
+#: admin/settings/class-uwp-settings-import-export.php:64
+#: includes/class-pages.php:441
+msgid "Users"
+msgstr "ユーザー"
+
+#: admin/settings/class-uwp-settings-general.php:76
+#: admin/views/html-admin-settings-general-shortcodes.php:208
+msgid "Author box"
+msgstr ""
+"著者ボックス\n"
+
+#: admin/settings/class-uwp-settings-general.php:77
+msgid "Developer"
+msgstr "開発者"
+
+#: admin/settings/class-uwp-settings-general.php:98
+msgid "Page Settings"
+msgstr ""
+"ページ設定\n"
+
+#: admin/settings/class-uwp-settings-general.php:105
+msgid "User Profile Page"
+msgstr "ユーザープロファイルページ"
+
+#: admin/settings/class-uwp-settings-general.php:106
+msgid ""
+"This is the front end user's profile page. This page automatically overrides "
+"the default WordPress author page."
+msgstr "これは、フロントエンドユーザーのプロファイルページです。 このページは、デフォルトのWordPress作成者ページを自動的に上書きします。"
+
+#: admin/settings/class-uwp-settings-general.php:113
+#: includes/class-status.php:962
+msgid "Register Page"
+msgstr ""
+"登録ページ\n"
+
+#: admin/settings/class-uwp-settings-general.php:114
+msgid ""
+"This is the front end register page. This is where users create their "
+"account."
+msgstr "これはフロントエンドの登録ページです。 ユーザーがアカウントを作成する場所です。"
+
+#: admin/settings/class-uwp-settings-general.php:121
+#: includes/class-status.php:966
+msgid "Login Page"
+msgstr "ログインページ"
+
+#: admin/settings/class-uwp-settings-general.php:122
+msgid ""
+"This is the front end login page. This is where users will login after "
+"creating their account."
+msgstr "これはフロントエンドのログインページです。 これは、ユーザーがアカウントを作成した後にログインする場所です。"
+
+#: admin/settings/class-uwp-settings-general.php:129
+#: includes/class-status.php:970
+msgid "Account Page"
+msgstr "アカウントページ"
+
+#: admin/settings/class-uwp-settings-general.php:130
+msgid ""
+"This is the front end account page. This is where users can edit their "
+"account."
+msgstr "これは、フロントエンドのアカウントページです。 これは、ユーザーがアカウントを編集できる場所です。"
+
+#: admin/settings/class-uwp-settings-general.php:137
+#: includes/class-status.php:974
+msgid "Change Password Page"
+msgstr ""
+"パスワード変更ページ\n"
+
+#: admin/settings/class-uwp-settings-general.php:138
+msgid "This is the front end Change Password page."
+msgstr "これは、フロントエンドの[パスワードの変更]ページです。"
+
+#: admin/settings/class-uwp-settings-general.php:145
+#: includes/class-status.php:978
+msgid "Forgot Password Page"
+msgstr "パスワードを忘れたページ"
+
+#: admin/settings/class-uwp-settings-general.php:146
+msgid ""
+"This is the front end Forgot Password page. This is the page where users are "
+"sent to reset their password when they lose it."
+msgstr ""
+"これは、フロントエンドの[パスワードを忘れた場合]ページです。 これは、ユーザーがパスワードを紛失したときにリセットするために送信されるページです。"
+
+#: admin/settings/class-uwp-settings-general.php:153
+#: includes/class-status.php:982
+msgid "Reset Password Page"
+msgstr ""
+"パスワードリセットのページ\n"
+
+#: admin/settings/class-uwp-settings-general.php:154
+msgid ""
+"This is the front end Reset Password page. This is the page where users can "
+"reset their password when they lose it."
+msgstr "これは、フロントエンドの[パスワードのリセット]ページです。 これは、ユーザーがパスワードを紛失したときにリセットできるページです。"
+
+#: admin/settings/class-uwp-settings-general.php:161
+#: includes/class-status.php:986
+msgid "Users List Page"
+msgstr "ユーザーリストページ"
+
+#: admin/settings/class-uwp-settings-general.php:162
+msgid ""
+"This is the front end Users List page. This is the page where all registered "
+"users of the websites are listed."
+msgstr "これは、フロントエンドの[ユーザーリスト]ページです。 これは、Webサイトのすべての登録ユーザーがリストされるページです。"
+
+#: admin/settings/class-uwp-settings-general.php:169
+msgid "Users List Item Page"
+msgstr "ユーザーリストアイテムページ"
+
+#: admin/settings/class-uwp-settings-general.php:170
+msgid ""
+"This is the page/template for displaying user item in users list page. You "
+"can change the template as you want which will apply to each user item in "
+"users list page."
+msgstr ""
+"これは、ユーザーリストページにユーザーアイテムを表示するためのページ/テンプレートです。 "
+"ユーザーリストページの各ユーザーアイテムに適用するテンプレートは、必要に応じて変更できます。"
+
+#: admin/settings/class-uwp-settings-general.php:186
+msgid "Register Settings"
+msgstr ""
+"登録設定\n"
+
+#: admin/settings/class-uwp-settings-general.php:193
+msgid "Registration Action"
+msgstr ""
+"登録アクション\n"
+
+#: admin/settings/class-uwp-settings-general.php:194
+msgid "Select how registration should be handled."
+msgstr "登録の処理方法を選択します。"
+
+#: admin/settings/class-uwp-settings-general.php:202
+msgid "Register Redirect Page"
+msgstr ""
+"リダイレクトページの登録\n"
+
+#: admin/settings/class-uwp-settings-general.php:203
+msgid ""
+"Set the page to redirect the user to after signing up. If no page has been "
+"set WordPress default will be used."
+msgstr "サインアップ後にユーザーをリダイレクトするページを設定します。 ページが設定されていない場合、WordPressのデフォルトが使用されます。"
+
+#: admin/settings/class-uwp-settings-general.php:210
+msgid "Register TOS Page"
+msgstr ""
+"TOSページの登録\n"
+
+#: admin/settings/class-uwp-settings-general.php:211
+msgid ""
+"Terms of Service page. When set \"Accept terms and Conditions\" checkbox "
+"will appear on the register form."
+msgstr ""
+"利用規約ページ。 設定すると、「利用規約に同意する」チェックボックスが登録フォームに表示されます。\n"
+
+#: admin/settings/class-uwp-settings-general.php:218
+msgid "Redirect admin default register page"
+msgstr ""
+"管理者のデフォルトの登録ページをリダイレクト\n"
+
+#: admin/settings/class-uwp-settings-general.php:219
+msgid ""
+"When enabled /wp-login.php?action=register page will be redirected to "
+"UsersWP register page."
+msgstr ""
+"有効にすると、/ wp-login.php？action = registerページはUsersWP登録ページにリダイレクトされます。\n"
+
+#: admin/settings/class-uwp-settings-general.php:225
+msgid "Enable admin email notification?"
+msgstr "管理者のメール通知を有効にしますか？"
+
+#: admin/settings/class-uwp-settings-general.php:226
+msgid ""
+"When enabled an email will be sent to the admin for every user registration."
+msgstr ""
+"有効にすると、ユーザー登録ごとに管理者にメールが送信されます。\n"
+
+#: admin/settings/class-uwp-settings-general.php:240
+msgid "Last User Page"
+msgstr "最後のユーザーページ"
+
+#: admin/settings/class-uwp-settings-general.php:249
+msgid "Login Settings"
+msgstr "ログイン設定"
+
+#: admin/settings/class-uwp-settings-general.php:256
+msgid "Login Redirect Page"
+msgstr "ログインリダイレクトページ"
+
+#: admin/settings/class-uwp-settings-general.php:257
+msgid ""
+"Set the page to redirect the user to after logging in. If no page has been "
+"set WordPress default will be used."
+msgstr "ログイン後にユーザーをリダイレクトするページを設定します。ページが設定されていない場合は、WordPressのデフォルトが使用されます。"
+
+#: admin/settings/class-uwp-settings-general.php:266
+msgid "Redirect wp-login.php?"
+msgstr ""
+"wp-login.phpをリダイレクトしますか？\n"
+
+#: admin/settings/class-uwp-settings-general.php:274
+msgid "Logout Redirect Page"
+msgstr "ログアウトリダイレクトページ"
+
+#: admin/settings/class-uwp-settings-general.php:275
+msgid ""
+"Set the page to redirect the user to after logging out. If no page has been "
+"set WordPress default will be used."
+msgstr "ログアウト後にユーザーをリダイレクトするページを設定します。 ページが設定されていない場合、WordPressのデフォルトが使用されます。"
+
+#: admin/settings/class-uwp-settings-general.php:290
+msgid "Change Password Settings"
+msgstr ""
+"パスワード設定を変更する\n"
+
+#: admin/settings/class-uwp-settings-general.php:297
+msgid "Enabled Old Password?"
+msgstr "古いパスワードを有効にしましたか？"
+
+#: admin/settings/class-uwp-settings-general.php:298
+msgid ""
+"Ask user to enter their old password before changing the password to add an "
+"extra layer of security."
+msgstr ""
+"パスワードを変更する前に古いパスワードを入力して、セキュリティの層を追加するようにユーザーに依頼します。\n"
+
+#: admin/settings/class-uwp-settings-general.php:304
+msgid "Disable system generated password notice."
+msgstr "システムが生成したパスワード通知を無効にします。"
+
+#: admin/settings/class-uwp-settings-general.php:305
+msgid ""
+"This option will disable system generated password notice if user has not "
+"changed default password after registration."
+msgstr "ユーザーが登録後にデフォルトのパスワードを変更していない場合、このオプションはシステムが生成したパスワード通知を無効にします。"
+
+#: admin/settings/class-uwp-settings-general.php:322
+msgid "Profile Settings"
+msgstr ""
+"プロファイル設定\n"
+
+#: admin/settings/class-uwp-settings-general.php:328
+msgid "Choose the tabs to display in Profile"
+msgstr ""
+"プロファイルに表示するタブを選択します\n"
+
+#: admin/settings/class-uwp-settings-general.php:329
+msgid "Choose the tabs to display in UsersWP Profile"
+msgstr ""
+"UsersWPプロファイルに表示するタブを選択します\n"
+
+#: admin/settings/class-uwp-settings-general.php:338
+msgid "Default banner image"
+msgstr ""
+"デフォルトのバナー画像\n"
+
+#: admin/settings/class-uwp-settings-general.php:339
+msgid "Recommended image size: 1000x300"
+msgstr ""
+"推奨画像サイズ：1000x300\n"
+
+#: admin/settings/class-uwp-settings-general.php:346
+msgid "Default profile image"
+msgstr ""
+"デフォルトのプロフィール画像\n"
+
+#: admin/settings/class-uwp-settings-general.php:347
+msgid "Recommended image size: 150x150"
+msgstr "推奨画像サイズ：150x150"
+
+#: admin/settings/class-uwp-settings-general.php:354
+msgid "Display Header in Profile"
+msgstr "プロファイルにヘッダーを表示"
+
+#: admin/settings/class-uwp-settings-general.php:361
+msgid "Display Body in Profile"
+msgstr "プロフィールにボディを表示"
+
+#: admin/settings/class-uwp-settings-general.php:368
+msgid "Profile Avatar max file size"
+msgstr "プロフィール画像の最大ファイルサイズ"
+
+#: admin/settings/class-uwp-settings-general.php:369
+#, php-format
+msgid ""
+"Enter Profile Avatar max file size in Kb. e.g. 512 for 512 kb, 1024 for 1 Mb,"
+" 2048 for 2 Mb etc. If empty WordPress default (%s) will be used."
+msgstr ""
+"プロファイルアバターの最大ファイルサイズをKBで入力します。 例えば 512 kbの場合512、1 Mbの場合1024、2 "
+"Mbの場合2048など。空の場合はWordPressのデフォルト（％s）が使用されます。"
+
+#: admin/settings/class-uwp-settings-general.php:377
+msgid "Profile Banner max file size"
+msgstr ""
+"プロファイルバナーの最大ファイルサイズ\n"
+
+#: admin/settings/class-uwp-settings-general.php:378
+#, php-format
+msgid ""
+"Enter Profile Banner max file size in Kb. e.g. 512 for 512 kb, 1024 for 1 Mb,"
+" 2048 for 2 Mb etc. If empty WordPress default (%s) will be used."
+msgstr ""
+"プロファイルバナーの最大ファイルサイズをKBで入力します。 例えば 512 kbの場合512、1 Mbの場合1024、2 "
+"Mbの場合2048など。空の場合はWordPressのデフォルト（％s）が使用されます。"
+
+#: admin/settings/class-uwp-settings-general.php:386
+msgid "Profile banner width"
+msgstr ""
+"プロファイルバナーの幅\n"
+
+#: admin/settings/class-uwp-settings-general.php:393
+msgid "Number of Items"
+msgstr ""
+"アイテム数\n"
+
+#: admin/settings/class-uwp-settings-general.php:396
+msgid "Enter number of items to display in profile tabs."
+msgstr "プロフィールタブに表示するアイテムの数を入力します。"
+
+#: admin/settings/class-uwp-settings-general.php:402
+msgid "Disable author link redirect to UsersWP profile page."
+msgstr "UsersWPプロフィールページへの著者リンクのリダイレクトを無効にします。"
+
+#: admin/settings/class-uwp-settings-general.php:417
+msgid "Users Settings"
+msgstr "ユーザー設定"
+
+#: admin/settings/class-uwp-settings-general.php:424
+msgid "Users default layout"
+msgstr "ユーザーのデフォルトのレイアウト"
+
+#: admin/settings/class-uwp-settings-general.php:425
+msgid "Choose the default layout for Users Page - Users List"
+msgstr ""
+"ユーザーページのデフォルトレイアウトを選択-ユーザーリスト\n"
+
+#: admin/settings/class-uwp-settings-general.php:433
+msgid "Users to exclude"
+msgstr "除外するユーザー"
+
+#: admin/settings/class-uwp-settings-general.php:435
+msgid "Enter comma separated ids of users to exclude from users listing."
+msgstr "ユーザーリスティングから除外するユーザーのカンマ区切りIDを入力します。"
+
+#: admin/settings/class-uwp-settings-general.php:449
+msgid "Author Box Settings"
+msgstr ""
+"オーサーボックスの設定\n"
+
+#: admin/settings/class-uwp-settings-general.php:455
+msgid "Enable Author Box"
+msgstr "著者ボックスを有効にする"
+
+#: admin/settings/class-uwp-settings-general.php:456
+msgid "Displays author box based on settings"
+msgstr "設定に基づいて作成者ボックスを表示します"
+
+#: admin/settings/class-uwp-settings-general.php:462
+msgid "Where to display?"
+msgstr ""
+"どこに表示しますか？\n"
+
+#: admin/settings/class-uwp-settings-general.php:463
+msgid "Displays the author box above or below post content."
+msgstr "投稿コンテンツの上または下に作成者ボックスを表示します。"
+
+#: admin/settings/class-uwp-settings-general.php:466
+msgid "Above content"
+msgstr "上記コンテンツ"
+
+#: admin/settings/class-uwp-settings-general.php:467
+msgid "Below content"
+msgstr ""
+"以下のコンテンツ\n"
+
+#: admin/settings/class-uwp-settings-general.php:475
+msgid "Post types"
+msgstr ""
+"投稿タイプ\n"
+
+#: admin/settings/class-uwp-settings-general.php:476
+msgid "Choose post types to display author box"
+msgstr ""
+"投稿ボックスを表示する投稿タイプを選択\n"
+
+#: admin/settings/class-uwp-settings-general.php:485
+msgid "Author box Content"
+msgstr ""
+"著者ボックスの内容\n"
+
+#: admin/settings/class-uwp-settings-general.php:486
+msgid "The author box body, this can be text or HTML."
+msgstr "著者ボックスの本文。これはテキストまたはHTMLです。"
+
+#: admin/settings/class-uwp-settings-general.php:505
+msgid "Developer Settings"
+msgstr "開発者設定"
+
+#: admin/settings/class-uwp-settings-general.php:512
+msgid "Disable Avatar Override?"
+msgstr "アバターオーバーライドを無効にしますか？"
+
+#: admin/settings/class-uwp-settings-general.php:513
+msgid ""
+"By default UsersWP will change the avatar to profile image. You can disable "
+"this using this option."
+msgstr ""
+"デフォルトでは、UsersWPはアバターをプロファイル画像に変更します。このオプションを使用してこれを無効にできます。\n"
+
+#: admin/settings/class-uwp-settings-general.php:527
+msgid "Welcome to UsersWP"
+msgstr "UsersWPへようこそ"
+
+#: admin/settings/class-uwp-settings-general.php:564
+#: includes/class-profile.php:438
+msgid "More Info"
+msgstr "詳細情報"
+
+#: admin/settings/class-uwp-settings-general.php:565
+#: includes/class-profile.php:445 includes/class-profile.php:612
+msgid "Posts"
+msgstr "投稿"
+
+#: admin/settings/class-uwp-settings-general.php:566
+#: includes/class-profile.php:454 includes/class-profile.php:633
+msgid "Comments"
+msgstr "コメント"
+
+#: admin/settings/class-uwp-settings-general.php:576
+#: includes/class-profile.php:1631 includes/helpers/misc.php:1807
+msgid "List View"
+msgstr "リストビュー"
+
+#: admin/settings/class-uwp-settings-general.php:577
+#: includes/helpers/misc.php:1808
+msgid "Grid View - 2 Column"
+msgstr "グリッドビュー-2列"
+
+#: admin/settings/class-uwp-settings-general.php:578
+#: includes/helpers/misc.php:1809
+msgid "Grid View - 3 Column"
+msgstr "グリッドビュー-3列"
+
+#: admin/settings/class-uwp-settings-general.php:579
+#: includes/helpers/misc.php:1810
+msgid "Grid View - 4 Column"
+msgstr "グリッドビュー-4列"
+
+#: admin/settings/class-uwp-settings-general.php:580
+#: includes/helpers/misc.php:1811
+msgid "Grid View - 5 Column"
+msgstr "グリッドビュー-5列"
+
+#: admin/settings/class-uwp-settings-import-export.php:25
+msgid "Import/Export"
+msgstr "インポート・エクスポート"
+
+#: admin/settings/class-uwp-settings-import-export.php:65
+msgid "Settings"
+msgstr "設定"
+
+#: admin/settings/class-uwp-settings-page.php:140
+msgid "Show Advanced"
+msgstr "詳細を表示"
+
+#: admin/settings/class-uwp-settings-page.php:141
+msgid "Hide Advanced"
+msgstr "詳細を非表示"
+
+#: admin/settings/class-uwp-settings-uninstall.php:28
+msgid "Uninstall"
+msgstr "アンインストール"
+
+#: admin/settings/class-uwp-settings-uninstall.php:67
+#: admin/settings/class-uwp-settings-uninstall.php:82
+msgid "Uninstall Settings"
+msgstr "設定のアンインストール"
+
+#: admin/settings/class-uwp-settings-uninstall.php:84
+msgid ""
+"NOTE: Add-ons should be deleted before core to ensure complete uninstall."
+msgstr ""
+"注：完全にアンインストールするために、コアの前にアドオンを削除する必要があります。\n"
+
+#: admin/settings/class-uwp-settings-uninstall.php:89
+msgid "Remove Data on Uninstall?"
+msgstr ""
+"アンインストール時にデータを削除しますか？\n"
+
+#: admin/settings/class-uwp-settings-uninstall.php:90
+msgid ""
+"Check this box if you would like UsersWP to completely remove all of its "
+"data when the plugin is deleted."
+msgstr ""
+"プラグインが削除されたときに、UsersWPですべてのデータを完全に削除する場合は、このボックスをオンにします。\n"
+
+#: admin/views/html-admin-page-addons.php:71
+#: admin/views/html-admin-page-addons.php:85
+msgid "More info"
+msgstr "詳細情報"
+
+#: admin/views/html-admin-page-addons.php:111
+#, php-format
+msgid ""
+"All of our UsersWP Addons can be found on UsersWP.io here: <a href=\"%s\">"
+"UsersWP Addons</a>"
+msgstr "すべてのUsersWPアドオンは、UsersWP.ioの<a href=\"%s\"> UsersWPアドオン</a>にあります。"
+
+#: admin/views/html-admin-page-addons.php:114
+#, php-format
+msgid ""
+"The plugin <a href='https://wpeasyupdates.com/' target='_blank'>WP Easy "
+"Updates</a> is required to check for and update some installed "
+"plugins/themes, please <a href='%s'>activate</a> it now."
+msgstr ""
+"プラグイン<a href='https://wpeasyupdates.com/' target='_blank'> WP Easy Updates "
+"</a>は、インストール済みのプラグイン/テーマを確認および更新するために必要です。<a href = '％s '>今すぐ有効化</a>。"
+
+#: admin/views/html-admin-page-addons.php:115
+#, php-format
+msgid ""
+"The plugin <a href='https://wpeasyupdates.com/' target='_blank'>WP Easy "
+"Updates</a> is required to check for and update some installed "
+"plugins/themes, please <a href='%s' onclick='window.open(\"https:"
+"//wpeasyupdates.com/wp-easy-updates.zip\", \"_blank\");' >download</a> and "
+"install it now."
+msgstr ""
+"プラグイン<a href='https://wpeasyupdates.com/' target='_blank'> WP Easy Updates "
+"</a>は、インストール済みのプラグイン/テーマを確認および更新するために必要です。<a href = '％s 'onclick =' window."
+"open（ \"https://wpeasyupdates.com/wp-easy-updates.zip\"、 \"_blank\"）; ' >"
+"ダウンロード</a>して今すぐインストールします。"
+
+#: admin/views/html-admin-page-addons.php:118
+msgid "Licence key"
+msgstr "ライセンスキー"
+
+#: admin/views/html-admin-page-addons.php:119
+msgid "Enter your licence key"
+msgstr "ライセンスキーを入力してください"
+
+#: admin/views/html-admin-page-addons.php:119 includes/class-addons.php:193
+#: includes/class-addons.php:237
+msgid "Install"
+msgstr "インストール"
+
+#: admin/views/html-admin-page-addons.php:122
+#, php-format
+msgid "%sFind your licence key here%s OR %sBuy one here%s"
+msgstr "％ここでライセンスキーを見つけるか、％ここで購入してください％s"
+
+#: admin/views/html-admin-page-status.php:12
+msgid "System status"
+msgstr "システムステータス"
+
+#: admin/views/html-admin-page-status.php:13
+msgid "Tools"
+msgstr "道具"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:11
+msgid "Flexible, Lightweight and Fast"
+msgstr "柔軟、軽量、高速"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:12
+msgid ""
+"UsersWP allows you to add a customizable register and login form to your "
+"website.\n"
+"        It also adds an extended profile page that override the default "
+"author page.\n"
+"        UsersWP has been built to be lightweight and fast"
+msgstr ""
+"UsersWPを使用すると、カスタマイズ可能な登録およびログインフォームをWebサイトに追加できます。\n"
+"         また、デフォルトの作成者ページを上書きする拡張プロファイルページを追加します。\n"
+"         UsersWPは軽量で高速になるように構築されています"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:16
+msgid "Less options, more hooks"
+msgstr "オプションが少なく、フックが多い"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:17
+msgid ""
+"We cut down the options to the bare minimum and you will not find any fancy\n"
+"        styling options in this plugin as we believe they belong in your "
+"theme.\n"
+"        This doesn't mean that you cannot customize the plugin behaviour.\n"
+"        To do this we provided a long list of Filters and Actions for any "
+"developer\n"
+"        to extend UsersWP to fit their needs."
+msgstr ""
+"私たちはオプションを最小限に削減し、あなたは空想を見つけません\n"
+"         テーマに属すると考えられるこのプラグインのスタイリングオプション。\n"
+"         これは、プラグインの動作をカスタマイズできないという意味ではありません。\n"
+"         これを行うために、すべての開発者向けのフィルターとアクションの長いリストを提供しました\n"
+"         UsersWPをニーズに合わせて拡張します。"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:23
+msgid "Override Templates"
+msgstr ""
+"テンプレートをオーバーライドする\n"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:24
+#, php-format
+msgid ""
+"If you need to change the look and feel of any UsersWP templates,\n"
+"        simply create a folder named userswp inside your active child theme\n"
+"        and copy the template you wish to modify in it. You can now modify "
+"the template.\n"
+"        The plugin will use your modified version and you don't have to "
+"worry about plugin or theme updates.\n"
+"        %s Click here for examples %s"
+msgstr ""
+"UsersWPテンプレートのルックアンドフィールを変更する必要がある場合は、\n"
+"         アクティブな子テーマ内にuserswpという名前のフォルダーを作成するだけです\n"
+"         変更したいテンプレートをコピーします。 これでテンプレートを変更できます。\n"
+"         プラグインは変更されたバージョンを使用するため、プラグインやテーマの更新について心配する必要はありません。\n"
+"         ％s例はこちらをクリック％s"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:30
+msgid "Add-ons"
+msgstr "アドオン"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:31
+#, php-format
+msgid ""
+"We have a long list of free and premium add-ons that will help you extend "
+"users management on your website.\n"
+"        %s Click here for our official free and premium add-ons %s"
+msgstr ""
+"Webサイトでのユーザー管理を拡張するのに役立つ無料のプレミアムアドオンの長いリストがあります。\n"
+"         ％s公式の無料およびプレミアムアドオン％sについては、ここをクリックしてください"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:34
+msgid "Available Shortcodes"
+msgstr ""
+"利用可能なショートコード\n"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:40
+msgid "User Profile Shortcode"
+msgstr "ユーザープロファイルのショートコード"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:43
+msgid "This is the shortcode for the front end user's profile."
+msgstr "これは、フロントエンドユーザーのプロファイルのショートコードです。"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:48
+msgid "Register Form Shortcode"
+msgstr ""
+"登録フォームのショートコード\n"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:51
+msgid "This is the shortcode for the front end register form."
+msgstr "これは、フロントエンドレジスタフォームのショートコードです。"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:56
+msgid "Login Form Shortcode"
+msgstr "ログインフォームショートコード"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:59
+msgid "This is the shortcode for the front end login form."
+msgstr "これは、フロントエンドログインフォームのショートコードです。"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:64
+msgid "Account Form Shortcode"
+msgstr "アカウントフォームショートコード"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:67
+msgid "This is the shortcode for the front end account form."
+msgstr "これは、フロントエンドアカウントフォームのショートコードです。"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:72
+msgid "Forgot Password Form Shortcode"
+msgstr "パスワードフォームを忘れた場合ショートコード"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:75
+msgid "This is the shortcode for the front end forgot password form."
+msgstr "これは、フロントエンドのパスワードを忘れた場合のフォームのショートコードです。"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:80
+msgid "Change Password Form Shortcode"
+msgstr ""
+"パスワードフォームショートコードの変更\n"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:83
+msgid "This is the shortcode for the front end change password form."
+msgstr "これは、フロントエンドのパスワード変更フォームのショートコードです。"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:88
+msgid "Reset Password Form Shortcode"
+msgstr ""
+"パスワードリセットフォームのショートコード\n"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:91
+msgid "This is the shortcode for the front end reset password form."
+msgstr "これは、フロントエンドのリセットパスワードフォームのショートコードです。"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:96
+msgid "Users List Shortcode"
+msgstr "ユーザーリストのショートコード"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:99
+msgid "This is the shortcode for the front end users list."
+msgstr "これは、フロントエンドユーザーリストのショートコードです。"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:104
+msgid "Output Location Shortcode"
+msgstr ""
+"出力場所のショートコード\n"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:107
+msgid ""
+"This is the shortcode for displaying user data at location selected while "
+"creating field via form builder. Location can be users, profile_side, "
+"more_info"
+msgstr ""
+"これは、フォームビルダーを介してフィールドを作成するときに選択した場所にユーザーデータを表示するためのショートコードです。 "
+"場所には、ユーザー、profile_side、more_infoを指定できます"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:112
+msgid "Profile Header Shortcode"
+msgstr ""
+"プロファイルヘッダーショートコード\n"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:115
+msgid ""
+"This is the shortcode for showing displayed user's profile picture and cover "
+"image . You can hide cover image, avatar with parameters and also disallow "
+"changing profile cover image and avatar with value 1. "
+msgstr ""
+"これは、表示されているユーザーのプロフィール写真と表紙画像を表示するためのショートコードです。 "
+"表紙画像、パラメータ付きのアバターを非表示にでき、プロファイル表紙画像と値1のアバターの変更を禁止することもできます。"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:120
+msgid "Profile Section Shortcode"
+msgstr ""
+"プロファイルセクションショートコード\n"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:123
+msgid ""
+"This is the shortcode for wrapping the things left and right on profile page."
+" Type can be open or close. Position can be left or right. Open section "
+"requires close section else it can break the layout."
+msgstr ""
+"これは、プロファイルページの左右を折り返すためのショートコードです。 タイプは開いているか閉じることができます。 位置は左または右です。 "
+"セクションを開くにはセクションを閉じる必要があります。"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:128
+msgid "User Title Shortcode"
+msgstr "ユーザータイトルショートコード"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:131
+msgid ""
+"This is the shortcode for showing displayed user's name. You can pass "
+"heading tag from h1 to h6 and user_id if you want to display for specific "
+"user ID. "
+msgstr ""
+"これは、表示されているユーザーの名前を表示するためのショートコードです。 "
+"特定のユーザーIDに対して表示する場合、h1からh6に見出しタグとuser_idを渡すことができます。"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:136
+msgid "User Avatar Shortcode"
+msgstr "ユーザーアバターショートコード"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:139
+msgid ""
+"This is the shortcode for showing user's avatar image and name. You can pass "
+"tag h1 to h6, div, p for user name, 1 to enable link to profile page, avatar "
+"size in px and user_id if you want to display for specific user. "
+msgstr ""
+"これは、ユーザーのアバター画像と名前を表示するためのショートコードです。 "
+"タグh1〜h6、div、pをユーザー名に渡し、プロファイルページへのリンクを有効にする1、特定のユーザーに表示する場合はpxのアバターサイズ、user_idを渡すことができます。"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:144
+msgid "User Meta Shortcode"
+msgstr "ユーザーメタショートコード"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:147
+msgid ""
+"This is the shortcode for showing displayed user's meta value based on key "
+"provided. You can pass icon-value, label-value, label, value, value-strip "
+"for how to show value. You can user_id if you want to display for specific "
+"user. "
+msgstr ""
+"これは、提供されたキーに基づいて表示されたユーザーのメタ値を表示するためのショートコードです。 "
+"値を表示する方法については、アイコン値、ラベル値、ラベル、値、値ストリップを渡すことができます。 "
+"特定のユーザーに対して表示する場合は、user_idを使用できます。"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:152
+msgid "Profile tabs Shortcode"
+msgstr ""
+"プロファイルタブショートコード\n"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:155
+msgid ""
+"This is the shortcode for displaying profile tabs for user's profile page. "
+msgstr "これは、ユーザーのプロファイルページのプロファイルタブを表示するためのショートコードです。"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:160
+msgid "Profile Social Fields Shortcode"
+msgstr ""
+"ソーシャルフィールドプロフィールのショートコード\n"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:163
+msgid ""
+"This is the shortcode for displaying user's social fields which are selected "
+"by adding uwp_social class while creating field via form builder. You can "
+"pass comma separated keys to exclude from displaying."
+msgstr ""
+"これは、フォームビルダーを介してフィールドを作成するときにuwp_socialクラスを追加することで選択されるユーザーのソーシャルフィールドを表示するためのショートコードです。"
+" コンマ区切りのキーを渡して、表示から除外できます。"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:168
+msgid "Profile Actions Shortcode"
+msgstr ""
+"プロファイルアクションショートコード\n"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:171
+msgid ""
+"This is the shortcode for user's profile actions like verify, transfer "
+"points etc. "
+msgstr "これは、確認、転送ポイントなどのユーザーのプロファイルアクションのショートコードです。"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:176
+msgid "User Actions Shortcode"
+msgstr "ユーザーアクションショートコード"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:179
+msgid ""
+"This is the shortcode for displaying user's actions like add friend, follow "
+"etc. "
+msgstr "これは、友達の追加、フォローなどのユーザーのアクションを表示するためのショートコードです。"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:184
+msgid "Users Search Shortcode"
+msgstr "ユーザー検索ショートコード"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:187
+msgid "This is the shortcode for displaying search form for searching users."
+msgstr "これは、ユーザーを検索するための検索フォームを表示するためのショートコードです。"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:192
+msgid "Users Loop Actions Shortcode"
+msgstr "ユーザーループアクションショートコード"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:195
+msgid ""
+"This is the shortcode for displaying users loop actions like views and "
+"filters."
+msgstr "これは、ビューやフィルターなどのループアクションをユーザーに表示するためのショートコードです。"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:200
+msgid "Users Loop Shortcode"
+msgstr "ユーザーループショートコード"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:203
+msgid "This is the shortcode for displaying users list."
+msgstr "これは、ユーザーリストを表示するためのショートコードです。"
+
+#: admin/views/html-admin-settings-general-shortcodes.php:211
+msgid "This is the shortcode for displaying author box."
+msgstr "これは、作成者ボックスを表示するためのショートコードです。"
+
+#: admin/views/html-admin-settings-import-export-settings.php:3
+msgid "Export Settings"
+msgstr "エクスポート設定"
+
+#: admin/views/html-admin-settings-import-export-settings.php:5
+msgid ""
+"Export the plugin settings for this site as a .json file. This allows you to "
+"easily import the configuration into another site."
+msgstr "このサイトのプラグイン設定を.jsonファイルとしてエクスポートします。 これにより、構成を別のサイトに簡単にインポートできます。"
+
+#: admin/views/html-admin-settings-import-export-settings.php:10
+msgid "Export"
+msgstr "書き出す"
+
+#: admin/views/html-admin-settings-import-export-settings.php:17
+msgid "Import Settings"
+msgstr "インポート設定"
+
+#: admin/views/html-admin-settings-import-export-settings.php:19
+msgid ""
+"Import the plugin settings from a .json file. This file can be obtained by "
+"exporting the settings on another site using the form above."
+msgstr ""
+".jsonファイルからプラグイン設定をインポートします。 "
+"このファイルは、上記のフォームを使用して別のサイトの設定をエクスポートすることにより取得できます。"
+
+#: admin/views/html-admin-settings-import-export-settings.php:27
+#: admin/views/html-admin-settings-import-export-users.php:150
+msgid "Import"
+msgstr "インポート"
+
+#: admin/views/html-admin-settings-import-export-users.php:120
+msgid "Export Users Data"
+msgstr "ユーザーデータのエクスポート"
+
+#: admin/views/html-admin-settings-import-export-users.php:122
+msgid "Download a CSV of all users data for usersWP."
+msgstr "usersWPのすべてのユーザーデータのCSVをダウンロードします。"
+
+#: admin/views/html-admin-settings-import-export-users.php:126
+msgid "Max entries per csv file:"
+msgstr "CSVファイルごとの最大エントリ："
+
+#: admin/views/html-admin-settings-import-export-users.php:127
+msgid ""
+"The maximum number of entries per csv file (default to 5000, you might want "
+"to lower this to prevent memory issues.)"
+msgstr "csvファイルごとのエントリの最大数（デフォルトは5000です。メモリの問題を防ぐために、これを低くすることができます。）"
+
+#: admin/views/html-admin-settings-import-export-users.php:134
+msgid "Export CSV"
+msgstr "CSVをエクスポート"
+
+#: admin/views/html-admin-settings-import-export-users.php:141
+msgid "Import Users"
+msgstr "ユーザーをインポートする"
+
+#: admin/views/html-admin-settings-import-export-users.php:143
+msgid ""
+"Import the users data from a .csv file. This file can be obtained by "
+"exporting the data on another site using the form above."
+msgstr ""
+".csvファイルからユーザーデータをインポートします。 "
+"このファイルは、上記のフォームを使用して別のサイトにデータをエクスポートすることにより取得できます。"
+
+#: admin/views/html-admin-settings-import-export-users.php:145
+msgid "Select File"
+msgstr ""
+"ファイルを選択\n"
+
+#: admin/views/html-admin-settings-import-export-users.php:349
+msgid "Allowed Files"
+msgstr "許可されたファイル"
+
+#: admin/views/html-admin-settings-import-export-users.php:379
+msgid "Maximum number of files reached!"
+msgstr "ファイルの最大数に達しました！"
+
+#: admin/views/html-admin-settings-import-export-users.php:426
+msgid ""
+"The file you have uploaded exceeds the file size limit. Please try again."
+msgstr "アップロードしたファイルがファイルサイズの制限を超えています。 もう一度やり直してください。"
+
+#: admin/views/html-admin-settings-import-export-users.php:430
+msgid "Invalid file uploaded. Please upload .csv file. Please try again."
+msgstr "無効なファイルがアップロードされました。 .csvファイルをアップロードしてください。 もう一度やり直してください。"
+
+#: admin/views/html-admin-settings.php:31
+msgid "Save changes"
+msgstr "変更内容を保存"
+
+#: includes/class-activator.php:288 includes/class-activator.php:566
+#: includes/libraries/class-geodirectory-plugin.php:1232
+msgid "Username"
+msgstr "ユーザー名"
+
+#: includes/class-activator.php:301 includes/class-activator.php:490
+#: includes/class-activator.php:631
+msgid "Password"
+msgstr "パスワード"
+
+#: includes/class-activator.php:359
+msgid "Avatar"
+msgstr "写真"
+
+#: includes/class-activator.php:397
+msgid "Banner"
+msgstr ""
+"バナー\n"
+
+#: includes/class-activator.php:435
+msgid "Old Password"
+msgstr "以前のパスワード"
+
+#: includes/class-activator.php:448
+msgid "New Password"
+msgstr "新しいパスワード"
+
+#: includes/class-activator.php:461 includes/class-activator.php:503
+#: includes/class-forms.php:2452
+msgid "Confirm Password"
+msgstr "パスワードを認証する"
+
+#: includes/class-activator.php:532
+msgid "First Name"
+msgstr "（名前）ファーストネーム"
+
+#: includes/class-activator.php:549
+msgid "Last Name"
+msgstr "苗字"
+
+#: includes/class-activator.php:583
+msgid "Display Name"
+msgstr "表示名"
+
+#: includes/class-activator.php:615
+msgid "Bio"
+msgstr "自己紹介"
+
+#: includes/class-addons.php:27
+msgid "Recommended plugins"
+msgstr ""
+"推奨プラグイン\n"
+
+#: includes/class-addons.php:28
+msgid "Membership"
+msgstr "会員"
+
+#: includes/class-addons.php:102 includes/class-addons.php:103
+msgid "Free"
+msgstr "自由"
+
+#: includes/class-addons.php:151
+#, php-format
+msgid "From: $%d"
+msgstr "から：$％d"
+
+#: includes/class-addons.php:172
+msgid "Active"
+msgstr "アクティブ"
+
+#: includes/class-addons.php:175 includes/class-addons.php:233
+msgid "Activate"
+msgstr "アクティベート"
+
+#: includes/class-addons.php:195
+msgid "Get it"
+msgstr "それを得る"
+
+#: includes/class-addons.php:232
+msgid "Something went wrong!"
+msgstr "何かがうまくいきませんでした！"
+
+#: includes/class-addons.php:234
+msgid "Activating"
+msgstr "アクティベート"
+
+#: includes/class-addons.php:235
+msgid "Deactivate"
+msgstr ""
+"無効化\n"
+
+#: includes/class-addons.php:236
+msgid "Installed"
+msgstr "インストール済み"
+
+#: includes/class-addons.php:238
+msgid "Installing"
+msgstr "インストール中"
+
+#: includes/class-addons.php:239
+msgid "Error"
+msgstr "エラー"
+
+#: includes/class-addons.php:273
+msgid "Turn any WordPress theme into a global business directory portal."
+msgstr "WordPressテーマをグローバルビジネスディレクトリポータルに変えます。"
+
+#: includes/class-addons.php:280
+msgid ""
+"Create & Send Invoices, Manage Taxes & VAT. Collect One Time & Recurring "
+"Payments."
+msgstr ""
+"請求書の作成と送信、税金とVATの管理。 1回限りの定期的な支払いを収集します。\n"
+
+#: includes/class-date.php:150
+msgid "January"
+msgstr "1月"
+
+#: includes/class-date.php:151
+msgid "February"
+msgstr "2月"
+
+#: includes/class-date.php:152
+msgid "March"
+msgstr "3月"
+
+#: includes/class-date.php:153
+msgid "April"
+msgstr "４月"
+
+#: includes/class-date.php:154 includes/class-date.php:186
+msgid "May"
+msgstr "5月"
+
+#: includes/class-date.php:155
+msgid "June"
+msgstr "6月"
+
+#: includes/class-date.php:156
+msgid "July"
+msgstr "７月"
+
+#: includes/class-date.php:157
+msgid "August"
+msgstr "８月"
+
+#: includes/class-date.php:158
+msgid "September"
+msgstr "9月"
+
+#: includes/class-date.php:159
+msgid "October"
+msgstr "10月"
+
+#: includes/class-date.php:160
+msgid "November"
+msgstr "11"
+
+#: includes/class-date.php:161
+msgid "December"
+msgstr "12月"
+
+#: includes/class-date.php:182
+msgid "Jan"
+msgstr "1月"
+
+#: includes/class-date.php:183
+msgid "Feb"
+msgstr "2月"
+
+#: includes/class-date.php:184
+msgid "Mar"
+msgstr "3月"
+
+#: includes/class-date.php:185
+msgid "Apr"
+msgstr "４月"
+
+#: includes/class-date.php:187
+msgid "Jun"
+msgstr "6月"
+
+#: includes/class-date.php:188
+msgid "Jul"
+msgstr "７月"
+
+#: includes/class-date.php:189
+msgid "Aug"
+msgstr "８月"
+
+#: includes/class-date.php:190
+msgid "Sep"
+msgstr "9月"
+
+#: includes/class-date.php:191
+msgid "Oct"
+msgstr "10月"
+
+#: includes/class-date.php:192
+msgid "Nov"
+msgstr "11月"
+
+#: includes/class-date.php:193
+msgid "Dec"
+msgstr "12月"
+
+#: includes/class-emails.php:164 includes/class-emails.php:234
+#, php-format
+msgid ""
+"Email from UsersWP failed to send.\n"
+"Message type: %s\n"
+"Send time: %s\n"
+"To: %s\n"
+"Subject: %s\n"
+"Error: %s\n"
+"\n"
+msgstr ""
+"UsersWPからのメールを送信できませんでした。\n"
+"メッセージタイプ：％s\n"
+"送信時間：％s\n"
+"宛先：％s\n"
+"科目\n"
+"エラー：％s"
+
+#: includes/class-emails.php:276 includes/class-pages.php:435
+msgid "login"
+msgstr "ログイン"
+
+#: includes/class-files.php:50
+#, php-format
+msgid "Allowed files types are: %s"
+msgstr "許可されるファイルタイプは次のとおりです：％s"
+
+#: includes/class-files.php:55
+msgid "The uploaded file is too big. Maximum size allowed:"
+msgstr "アップロードされたファイルが大きすぎます。 許可される最大サイズ："
+
+#: includes/class-files.php:200
+#, php-format
+msgid "\"%s\" (filetype %s) needs to be one of the following file types: %s"
+msgstr "「％s」（ファイルタイプ％s）は、次のファイルタイプのいずれかである必要があります：％s"
+
+#: includes/class-files.php:202
+#, php-format
+msgid "Uploaded files need to be one of the following file types: %s"
+msgstr "アップロードするファイルは、次のファイルタイプのいずれかである必要があります：％s"
+
+#: includes/class-files.php:367
+msgid "Remove File"
+msgstr ""
+"ファイルを削除\n"
+
+#: includes/class-forms.php:52 includes/class-forms.php:66
+msgid "Avatar cropped successfully."
+msgstr "画像が正常にトリミングされました。"
+
+#: includes/class-forms.php:59 includes/class-forms.php:73
+msgid "Banner cropped successfully."
+msgstr ""
+"バナーが正常にトリミングされました。\n"
+
+#: includes/class-forms.php:179
+#, php-format
+msgid ""
+"We have removed the system generated password warning for you. From this "
+"point forward you can continue to access our site as usual. To go to home "
+"page, <a href=\"%s\">click here</a>."
+msgstr ""
+"システムが生成したパスワード警告を削除しました。 これ以降、通常どおりサイトにアクセスできます。 ホームページに移動するには、<a "
+"href=\"%s\">ここをクリック</a>します。"
+
+#: includes/class-forms.php:184
+#, php-format
+msgid ""
+"<strong>Warning</strong>: It seems like you are using a system generated "
+"password. Please change the password in this page. If this is not a problem "
+"for you, you can remove this warning by <a href=\"%s\">clicking here</a>."
+msgstr ""
+"<strong>警告</ strong>：システムが生成したパスワードを使用しているようです。 このページでパスワードを変更してください。 "
+"これが問題にならない場合は、<a href=\"%s\">ここをクリック</a>してこの警告を削除できます。"
+
+#: includes/class-forms.php:215
+msgid ""
+"<strong>ERROR</strong>: User registration is currently not allowed. Please "
+"check settings of your site."
+msgstr "<strong>エラー</ strong>：現在、ユーザー登録は許可されていません。 サイトの設定を確認してください。"
+
+#: includes/class-forms.php:224
+msgid "<strong>ERROR</strong>: You must accept our terms and conditions."
+msgstr "<strong>エラー</ strong>：利用規約に同意する必要があります。"
+
+#: includes/class-forms.php:302 includes/class-forms.php:320
+#: includes/class-forms.php:734 includes/class-forms.php:742
+#: includes/class-forms.php:844
+msgid ""
+"<strong>Error</strong>: Something went wrong. Please contact site admin."
+msgstr "<strong>エラー</ strong>：何かがおかしい。 サイト管理者に連絡してください。"
+
+#: includes/class-forms.php:365 includes/class-forms.php:469
+msgid "<strong>Error</strong>: Invalid username or Password."
+msgstr "<strong>エラー</strong>：ユーザー名またはパスワードが無効です。"
+
+#: includes/class-forms.php:387
+#, php-format
+msgid ""
+"An email has been sent to your registered email address. Please click the "
+"activation link to proceed. %sResend%s."
+msgstr "登録したメールアドレスにメールが送信されました。 アクティベーションリンクをクリックして続行してください。 ％s再送信％s。"
+
+#: includes/class-forms.php:396
+msgid "Your account is under moderation. We will email you once its approved."
+msgstr "アカウントは管理中です。 承認されるとメールでお知らせします。"
+
+#: includes/class-forms.php:404
+#, php-format
+msgid ""
+"Account registered successfully. A password has been generated and mailed to "
+"your registered Email ID. Please login %shere%s."
+msgstr "アカウントは正常に登録された。 パスワードが生成され、登録済みのメールIDに郵送されました。 ％shere％sにログインしてください。"
+
+#: includes/class-forms.php:406
+#, php-format
+msgid "Account registered successfully. Please login %shere%s"
+msgstr "アカウントは正常に登録された。 ％shere％sにログインしてください"
+
+#: includes/class-forms.php:521
+msgid ""
+"<strong>Error</strong>: Your account is not activated yet. Please activate "
+"your account first."
+msgstr "<strong>エラー</ strong>：アカウントはまだ有効化されていません。 最初にアカウントを有効にしてください。"
+
+#: includes/class-forms.php:529
+msgid "Please check your email."
+msgstr "メールを確認してください。"
+
+#: includes/class-forms.php:581
+msgid "Password changed successfully"
+msgstr "パスワードは正常に変更されました"
+
+#: includes/class-forms.php:635
+#, php-format
+msgid ""
+"Password updated successfully. Please <a href=\"%s\">login</a> with your new "
+"password"
+msgstr "パスワードが正常に更新されました。 新しいパスワードでログインしてください"
+
+#: includes/class-forms.php:756
+msgid "Account updated successfully"
+msgstr "アカウントが正常に更新されました"
+
+#: includes/class-forms.php:965
+msgid "User Information :"
+msgstr "ユーザー情報 ："
+
+#: includes/class-forms.php:966
+msgid "First Name:"
+msgstr "（名前）ファーストネーム："
+
+#: includes/class-forms.php:967
+msgid "Last Name:"
+msgstr "苗字："
+
+#: includes/class-forms.php:968 includes/class-forms.php:1041
+msgid "Username:"
+msgstr "ユーザー名"
+
+#: includes/class-forms.php:969
+msgid "Email:"
+msgstr "Eメール："
+
+#: includes/class-forms.php:965 includes/class-forms.php:1040
+msgid "<p><b>"
+msgstr "<p><b>"
+
+#: includes/class-forms.php:1000
+msgid "To activate your account, visit the following address:"
+msgstr "アカウントを有効にするには、次のアドレスにアクセスしてください。"
+
+#: includes/class-forms.php:1012
+msgid "Please activate your account :"
+msgstr "アカウントを有効にしてください："
+
+#: includes/class-forms.php:1038
+msgid "Password you entered"
+msgstr "入力したパスワード"
+
+#: includes/class-forms.php:1040 includes/class-forms.php:1077
+msgid "Your login Information :"
+msgstr "ログイン情報："
+
+#: includes/class-forms.php:1042
+msgid "Password:"
+msgstr "パスワード："
+
+#: includes/class-forms.php:1078 includes/class-forms.php:1093
+#, php-format
+msgid "Username: %s"
+msgstr "ユーザー名：%s"
+
+#: includes/class-forms.php:1079
+#, php-format
+msgid "Password: %s"
+msgstr "パスワード：%s"
+
+#: includes/class-forms.php:1091
+msgid "You have requested to reset your password for the following account:"
+msgstr ""
+"You have requested to reset your password for the following account:\n"
+
+#: includes/class-forms.php:1094
+msgid "If this was by mistake, just ignore this email and nothing will happen."
+msgstr "これが間違っていた場合は、このメールを無視してください。何も起こりません。"
+
+#: includes/class-forms.php:1095
+msgid ""
+"To reset your password, click the following link and follow the instructions."
+msgstr "パスワードをリセットするには、次のリンクをクリックして、指示に従ってください。"
+
+#: includes/class-forms.php:1487
+msgid "Choose"
+msgstr "選ぶ"
+
+#: includes/class-forms.php:1899
+msgid "Username or Email"
+msgstr "ユーザー名または電子メール"
+
+#: includes/class-forms.php:2077
+msgid "Please enter a valid URL including http://"
+msgstr ""
+"http：//を含む有効なURLを入力してください\n"
+
+#: includes/class-forms.php:2313
+msgid "Search For"
+msgstr "検索する"
+
+#: includes/class-forms.php:2327
+msgid "Search"
+msgstr "検索する"
+
+#: includes/class-forms.php:2507
+msgid "Confirm Email"
+msgstr "Eメール確認"
+
+#: includes/class-import-export.php:60
+msgid "Settings imported successfully!"
+msgstr "設定が正常にインポートされました！"
+
+#: includes/class-import-export.php:99
+#, php-format
+msgid "Please upload a valid .json file. %sGo Back%s"
+msgstr ""
+"有効な.jsonファイルをアップロードしてください。 ％s戻る％s\n"
+
+#: includes/class-import-export.php:103
+#, php-format
+msgid "Please upload a file to import. %sGo Back%s"
+msgstr ""
+"インポートするファイルをアップロードしてください。 ％s戻る％s\n"
+
+#: includes/class-import-export.php:115
+msgid "Invalid export request found."
+msgstr "無効なエクスポート要求が見つかりました。"
+
+#: includes/class-import-export.php:127 includes/class-import-export.php:397
+msgid "Security check failed."
+msgstr ""
+"セキュリティチェックに失敗しました。\n"
+
+#: includes/class-import-export.php:132 includes/class-import-export.php:189
+msgid "Filesystem ERROR: "
+msgstr "ファイルシステムエラー："
+
+#: includes/class-import-export.php:164
+msgid "No data found for export."
+msgstr ""
+"エクスポートするデータが見つかりません。\n"
+
+#: includes/class-import-export.php:185
+msgid "Filesystem ERROR: Could not access filesystem."
+msgstr "ファイルシステムエラー：ファイルシステムにアクセスできませんでした。"
+
+#: includes/class-import-export.php:199
+#, php-format
+msgid ""
+"Filesystem ERROR: Export location %s is not writable, check your file "
+"permissions."
+msgstr "ファイルシステムエラー：エクスポート場所％sは書き込み可能ではありません。ファイルのアクセス許可を確認してください。"
+
+#: includes/class-import-export.php:205
+#, php-format
+msgid ""
+"Filesystem ERROR: Could not create directory %s. This is usually due to "
+"inconsistent file permissions."
+msgstr "ファイルシステムエラー：ディレクトリ％sを作成できませんでした。 これは通常、一貫性のないファイル許可が原因です。"
+
+#: includes/class-import-export.php:385
+msgid "Invalid import request found."
+msgstr "無効なインポート要求が見つかりました。"
+
+#: includes/class-import-export.php:410
+msgid "Invalid file type, please upload .csv file."
+msgstr "ファイルタイプが無効です。.csvファイルをアップロードしてください。"
+
+#: includes/class-import-export.php:434
+msgid "Total "
+msgstr "合計"
+
+#: includes/class-import-export.php:444
+msgid "Users import completed."
+msgstr "ユーザーのインポートが完了しました。"
+
+#: includes/class-import-export.php:451
+msgid "No valid data found for import."
+msgstr ""
+"インポートに有効なデータが見つかりません。\n"
+
+#: includes/class-import-export.php:462
+msgid "No csv file found."
+msgstr ""
+"csvファイルが見つかりません。\n"
+
+#: includes/class-import-export.php:474 includes/class-import-export.php:535
+#: includes/class-import-export.php:551
+msgid "Row - "
+msgstr ""
+"行-\n"
+
+#: includes/class-meta.php:339 includes/class-meta.php:378
+msgid "Resend Activation"
+msgstr ""
+"アクティベーションメールを再送信\n"
+
+#: includes/class-meta.php:340
+msgid "Activate User"
+msgstr "ユーザーをアクティベート"
+
+#: includes/class-meta.php:357 includes/class-meta.php:432
+msgid "Activation email has been sent!"
+msgstr "アクティベーションメールが送信されました！"
+
+#: includes/class-meta.php:359
+msgid "Error while processing request. Please contact site admin."
+msgstr "リクエストの処理中にエラーが発生しました。 サイト管理者に連絡してください。"
+
+#: includes/class-meta.php:379
+msgid "Approve User(s)"
+msgstr ""
+"ユーザーを承認\n"
+
+#: includes/class-meta.php:435
+msgid "Error while sending activation email. Please try again."
+msgstr "アクティベーションメールの送信中にエラーが発生しました。 もう一度やり直してください。"
+
+#: includes/class-meta.php:438
+msgid "User(s) has been activated!"
+msgstr "ユーザーがアクティベートされました！"
+
+#: includes/class-notices.php:37
+msgid ""
+"<strong>Heads Up!</strong><br/> User registration is currently not allowed."
+msgstr "<strong>注意！</ strong> <br/>現在、ユーザー登録は許可されていません。"
+
+#: includes/class-notices.php:55
+msgid "Account activated successfully. Please login to continue."
+msgstr "アカウントが正常にアクティブ化されました。 続行するにはログインしてください。"
+
+#: includes/class-notices.php:59
+msgid ""
+"Your account is not activated yet. Please check your email for activation "
+"email."
+msgstr "アカウントはまだ有効化されていません。 アクティベーションメールのメールを確認してください。"
+
+#: includes/class-notices.php:63
+msgid "Invalid activation key or account."
+msgstr "アクティベーションキーまたはアカウントが無効です。"
+
+#: includes/class-notices.php:67
+msgid "Something went wrong."
+msgstr "何かがうまくいきませんでした。"
+
+#: includes/class-notices.php:92
+msgid "UsersWP data sync"
+msgstr "UsersWPデータ同期"
+
+#: includes/class-notices.php:92
+msgid "Users data sync is running in the background."
+msgstr "ユーザーのデータ同期はバックグラウンドで実行されています。"
+
+#: includes/class-notices.php:92
+msgid "Taking a while? Click here to run it now."
+msgstr "今すぐ実行するにはここをクリックしてください。"
+
+#: includes/class-pages.php:307
+msgid "Select a Page"
+msgstr ""
+"ページを選択\n"
+
+#: includes/class-pages.php:434
+msgid "register"
+msgstr "登録"
+
+#: includes/class-pages.php:436
+msgid "account"
+msgstr "アカウント"
+
+#: includes/class-pages.php:437
+msgid "forgot"
+msgstr "忘れた"
+
+#: includes/class-pages.php:437
+msgid "Forgot Password?"
+msgstr "パスワードをお忘れですか？"
+
+#: includes/class-pages.php:438
+msgid "reset"
+msgstr "リセットする"
+
+#: includes/class-pages.php:438
+msgid "Reset Password"
+msgstr "パスワードを再設定する"
+
+#: includes/class-pages.php:439
+msgid "change"
+msgstr "変化する"
+
+#: includes/class-pages.php:440
+msgid "profile"
+msgstr "プロフィール"
+
+#: includes/class-pages.php:441
+msgid "users"
+msgstr "ユーザー"
+
+#: includes/class-pages.php:442
+msgid "user-list-item"
+msgstr "ユーザーリスト項目"
+
+#: includes/class-pages.php:442
+msgid "Users List Item"
+msgstr "ユーザーリストアイテム"
+
+#: includes/class-pages.php:610
+msgid "UWP Register Page"
+msgstr "UWP登録ページ"
+
+#: includes/class-pages.php:614
+msgid "UWP Login Page"
+msgstr "UWPログインページ"
+
+#: includes/class-pages.php:618
+msgid "UWP Forgot Password Page"
+msgstr "UWPパスワードを忘れた場合のページ"
+
+#: includes/class-pages.php:622
+msgid "UWP Reset Password Page"
+msgstr "UWPパスワードのリセットページ"
+
+#: includes/class-pages.php:626
+msgid "UWP Account Page"
+msgstr "UWPアカウントページ"
+
+#: includes/class-pages.php:630
+msgid "UWP Profile Page"
+msgstr "UWPプロファイルページ"
+
+#: includes/class-pages.php:634
+msgid "UWP Users Page"
+msgstr "UWPユーザーページ"
+
+#: includes/class-pages.php:638
+msgid "UWP User Item Page"
+msgstr "UWPユーザーアイテムページ"
+
+#: includes/class-pages.php:642
+msgid "UWP Change Password Page"
+msgstr "UWPパスワード変更ページ"
+
+#: includes/class-profile.php:99
+msgid "Update Cover Photo"
+msgstr "カバー写真を更新"
+
+#: includes/class-profile.php:134
+msgid "Update"
+msgstr "更新"
+
+#: includes/class-profile.php:529 includes/helpers/tabs.php:164
+#: templates/account.php:13
+msgid "Edit Account"
+msgstr "アカウントの編集"
+
+#: includes/class-profile.php:556
+msgid "Page"
+msgstr ""
+"ページ\n"
+
+#: includes/class-profile.php:690
+msgid "No Comments Found"
+msgstr "コメントは見つかりませんでした"
+
+#: includes/class-profile.php:962
+msgid "Loading Form ..."
+msgstr "フォームを読み込んでいます..."
+
+#: includes/class-profile.php:1029 includes/class-profile.php:1103
+msgid "Change your profile photo"
+msgstr "プロフィール写真を変更する"
+
+#: includes/class-profile.php:1031 includes/class-profile.php:1105
+msgid "Change your cover photo"
+msgstr "カバー写真を変更する"
+
+#: includes/class-profile.php:1053 includes/class-profile.php:1128
+msgid "Apply"
+msgstr "適用する"
+
+#: includes/class-profile.php:1057 includes/class-profile.php:1132
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: includes/class-profile.php:1116
+msgid "Upload"
+msgstr "アップロードする"
+
+#: includes/class-profile.php:1117
+msgid "Note: Max upload image size: "
+msgstr "注：最大アップロード画像サイズ："
+
+#: includes/class-profile.php:1468
+#, php-format
+msgid "The uploaded file is too small. Minimum image width should be %s px"
+msgstr "アップロードされたファイルが小さすぎます。 最小画像幅は％s pxです"
+
+#: includes/class-profile.php:1471
+#, php-format
+msgid "The uploaded file is too small. Minimum image height should be %s px"
+msgstr "アップロードされたファイルが小さすぎます。 画像の最小の高さは％s pxでなければなりません"
+
+#: includes/class-profile.php:1509
+msgid "Invalid request!"
+msgstr "無効なリクエスト！"
+
+#: includes/class-profile.php:1527
+msgid "No fields available"
+msgstr ""
+"利用可能なフィールドがありません\n"
+
+#: includes/class-profile.php:1632
+msgid "Grid 2 Col"
+msgstr "グリッド2列"
+
+#: includes/class-profile.php:1633
+msgid "Grid 3 Col"
+msgstr "グリッド3列"
+
+#: includes/class-profile.php:1634
+msgid "Grid 4 Col"
+msgstr "グリッド4列"
+
+#: includes/class-profile.php:1635
+msgid "Grid 5 Col"
+msgstr "グリッド5列"
+
+#: includes/class-profile.php:1651
+msgid "Sort By:"
+msgstr "並び替え："
+
+#: includes/class-profile.php:1652
+msgid "Newer"
+msgstr "より新しい"
+
+#: includes/class-profile.php:1653
+msgid "Older"
+msgstr "年上の"
+
+#: includes/class-profile.php:1654
+msgid "A-Z"
+msgstr "A-Z"
+
+#: includes/class-profile.php:1655
+msgid "Z-A"
+msgstr "Z-A"
+
+#: includes/class-status.php:90
+msgid ""
+"Please copy and paste this information in your ticket when contacting "
+"support:"
+msgstr ""
+"サポートに連絡するときは、チケットにこの情報をコピーして貼り付けてください：\n"
+
+#: includes/class-status.php:91
+msgid "Get system report"
+msgstr "システムレポートを取得する"
+
+#: includes/class-status.php:94
+msgid "Copy for Support"
+msgstr "サポート用コピー"
+
+#: includes/class-status.php:95
+msgid "Copying to clipboard failed. Please press Ctrl/Cmd+C to copy."
+msgstr ""
+"クリップボードへのコピーに失敗しました。コピーするには、Ctrl / Cmd + Cを押してください。\n"
+
+#: includes/class-status.php:101
+msgid "WordPress Environment"
+msgstr ""
+"WordPress環境\n"
+
+#: includes/class-status.php:106
+msgid "Home URL"
+msgstr "ホームURL"
+
+#: includes/class-status.php:110
+msgid "Site URL"
+msgstr "サイトのURL"
+
+#: includes/class-status.php:114
+msgid "UWP version"
+msgstr "UWPバージョン"
+
+#: includes/class-status.php:118
+msgid "WP version"
+msgstr ""
+"WPバージョン\n"
+
+#: includes/class-status.php:122
+msgid "WP multisite"
+msgstr ""
+"WPマルチサイト\n"
+
+#: includes/class-status.php:126
+msgid "WP memory limit"
+msgstr ""
+"WPメモリ制限\n"
+
+#: includes/class-status.php:129
+#, php-format
+msgid "%1$s - We recommend setting memory to at least 64MB. See: %2$s"
+msgstr "％1 $ s-メモリを少なくとも64MBに設定することをお勧めします。 参照：％2 $ s"
+
+#: includes/class-status.php:129
+msgid "Increasing memory allocated to PHP"
+msgstr "PHPに割り当てるメモリを増やす"
+
+#: includes/class-status.php:136
+msgid "WP debug mode"
+msgstr ""
+"WPデバッグモード\n"
+
+#: includes/class-status.php:146
+msgid "WP cron"
+msgstr ""
+"WP cron\n"
+
+#: includes/class-status.php:156
+msgid "Language"
+msgstr "言語"
+
+#: includes/class-status.php:160
+msgid "UWP Installation Mode"
+msgstr "UWPインストールモード"
+
+#: includes/class-status.php:164
+msgid "UsersWP is Network Activate for All Site"
+msgstr "UsersWPはすべてのサイトのネットワークアクティブ化です"
+
+#: includes/class-status.php:167
+msgid "UsersWP is Network Activate for Specific Site"
+msgstr "UsersWPは特定のサイトのネットワークアクティブ化です"
+
+#: includes/class-status.php:170
+msgid "UsersWP is Activate for Main Site"
+msgstr "UsersWPはメインサイトでアクティブ化されます"
+
+#: includes/class-status.php:175
+msgid "UsersWP is Activate for Single Site"
+msgstr "UsersWPは単一サイトに対してアクティブ化されます"
+
+#: includes/class-status.php:186
+msgid "Server Environment"
+msgstr "サーバー環境"
+
+#: includes/class-status.php:191
+msgid "Server info"
+msgstr "サーバー情報"
+
+#: includes/class-status.php:195
+msgid "PHP version"
+msgstr ""
+"PHPバージョン\n"
+
+#: includes/class-status.php:198
+#, php-format
+msgid "%1$s - We recommend a minimum PHP version of 5.6."
+msgstr "％1 $ s-5.6以降のPHPバージョンを推奨します。"
+
+#: includes/class-status.php:206
+msgid "PHP post max size"
+msgstr ""
+"PHPポストの最大サイズ\n"
+
+#: includes/class-status.php:210
+msgid "PHP time limit"
+msgstr ""
+"PHPの制限時間\n"
+
+#: includes/class-status.php:214
+msgid "PHP max input vars"
+msgstr ""
+"PHPの最大入力変数\n"
+
+#: includes/class-status.php:218
+msgid "cURL version"
+msgstr ""
+"cURLバージョン\n"
+
+#: includes/class-status.php:222
+msgid "SUHOSIN installed"
+msgstr "SUHOSIN　インストール済み"
+
+#: includes/class-status.php:233
+msgid "MySQL version"
+msgstr "MySQLバージョン"
+
+#: includes/class-status.php:237
+#, php-format
+msgid "%1$s - We recommend a minimum MySQL version of 5.6. See: %2$s"
+msgstr "％1 $ s-5.6以上のMySQLバージョンを推奨します。 参照：％2 $ s"
+
+#: includes/class-status.php:237
+msgid "WordPress requirements"
+msgstr ""
+"WordPressの要件\n"
+
+#: includes/class-status.php:246
+msgid "Max upload size"
+msgstr "最大アップロードサイズ"
+
+#: includes/class-status.php:250
+msgid "Default timezone is UTC"
+msgstr ""
+"デフォルトのタイムゾーンはUTC\n"
+
+#: includes/class-status.php:253
+#, php-format
+msgid "Default timezone is %s - it should be UTC"
+msgstr ""
+"デフォルトのタイムゾーンは％sです-UTCである必要があります\n"
+
+#: includes/class-status.php:260
+msgid "fsockopen/cURL"
+msgstr "fsockopen / cURL"
+
+#: includes/class-status.php:265
+msgid ""
+"Your server does not have fsockopen or cURL enabled - PayPal IPN and other "
+"scripts which communicate with other servers will not work. Contact your "
+"hosting provider."
+msgstr ""
+"サーバーでfsockopenまたはcURLが有効になっていない-他のサーバーと通信するPayPal IPNおよびその他のスクリプトは機能しません。 "
+"ホスティングプロバイダーにお問い合わせください。"
+
+#: includes/class-status.php:270
+msgid "SoapClient"
+msgstr "SoapClient"
+
+#: includes/class-status.php:275
+#, php-format
+msgid ""
+"Your server does not have the %s class enabled - some gateway plugins which "
+"use SOAP may not work as expected."
+msgstr "サーバーでは％sクラスが有効になっていません-SOAPを使用する一部のゲートウェイプラグインが期待どおりに機能しない場合があります。"
+
+#: includes/class-status.php:280
+msgid "DOMDocument"
+msgstr "DOMDocument"
+
+#: includes/class-status.php:285
+#, php-format
+msgid ""
+"Your server does not have the %s class enabled - HTML/Multipart emails, and "
+"also some extensions, will not work without DOMDocument."
+msgstr ""
+"サーバーでは％sクラスが有効になっていません-HTML / Multipartメールと一部の拡張機能はDOMDocumentなしでは機能しません。"
+
+#: includes/class-status.php:290
+msgid "GZip"
+msgstr "GZip"
+
+#: includes/class-status.php:295
+#, php-format
+msgid ""
+"Your server does not support the %s function - this is required to use the "
+"GeoIP database from MaxMind."
+msgstr "サーバーは％s関数をサポートしていません-これはMaxMindのGeoIPデータベースを使用するために必要です。"
+
+#: includes/class-status.php:300
+msgid "GD Library"
+msgstr "GDライブラリ"
+
+#: includes/class-status.php:305
+#, php-format
+msgid ""
+"Your server does not have enabled %s - this is required for image processing."
+msgstr "サーバーで％sが有効になっていません-これは画像処理に必要です。"
+
+#: includes/class-status.php:310
+msgid "Multibyte string"
+msgstr "マルチバイト文字列"
+
+#: includes/class-status.php:315
+#, php-format
+msgid ""
+"Your server does not support the %s functions - this is required for better "
+"character encoding. Some fallbacks will be used instead for it."
+msgstr "サーバーは％s関数をサポートしていません-これはより良い文字エンコーディングに必要です。 代わりにいくつかのフォールバックが使用されます。"
+
+#: includes/class-status.php:320
+msgid "Remote POST"
+msgstr ""
+"リモートPOST\n"
+
+#: includes/class-status.php:325 includes/class-status.php:335
+#, php-format
+msgid "%s failed. Contact your hosting provider."
+msgstr "％sが失敗しました。 ホスティングプロバイダーにお問い合わせください。"
+
+#: includes/class-status.php:330
+msgid "Remote GET"
+msgstr ""
+"リモートGET\n"
+
+#: includes/class-status.php:368
+msgid "User Platform"
+msgstr "ユーザープラットフォーム"
+
+#: includes/class-status.php:373
+msgid "Platform"
+msgstr ""
+"プラットフォーム\n"
+
+#: includes/class-status.php:377
+msgid "Browser name"
+msgstr ""
+"ブラウザ名\n"
+
+#: includes/class-status.php:381
+msgid "Browser version"
+msgstr ""
+"ブラウザのバージョン\n"
+
+#: includes/class-status.php:385
+msgid "User agent"
+msgstr "ユーザーエージェント"
+
+#: includes/class-status.php:393
+msgid "Database"
+msgstr ""
+"データベース\n"
+
+#: includes/class-status.php:398
+msgid "UWP database version"
+msgstr "UWPデータベースバージョン"
+
+#: includes/class-status.php:402
+msgid "Database Prefix"
+msgstr ""
+"データベース接頭辞\n"
+
+#: includes/class-status.php:405
+#, php-format
+msgid "%1$s - We recommend using a prefix with less than 20 characters."
+msgstr "％1 $ s-20文字未満のプレフィックスを使用することをお勧めします。"
+
+#: includes/class-status.php:413
+msgid "Total Database Size"
+msgstr "合計データベースサイズ"
+
+#: includes/class-status.php:418
+msgid "Database Data Size"
+msgstr ""
+"データベースのデータサイズ\n"
+
+#: includes/class-status.php:423
+msgid "Database Index Size"
+msgstr ""
+"データベースインデックスサイズ\n"
+
+#: includes/class-status.php:432
+msgid "Table does not exist"
+msgstr "テーブルが存在しません"
+
+#: includes/class-status.php:434 includes/class-status.php:444
+#, php-format
+msgid "Data: %.2fMB + Index: %.2fMB"
+msgstr ""
+"データ：％.2fMB +インデックス：％.2fMB\n"
+
+#: includes/class-status.php:453
+msgid "Security"
+msgstr "セキュリティ"
+
+#: includes/class-status.php:458
+msgid "Secure connection (HTTPS)"
+msgstr ""
+"セキュア接続（HTTPS）\n"
+
+#: includes/class-status.php:463
+msgid "Your site is not using HTTPS."
+msgstr "サイトはHTTPSを使用していません。"
+
+#: includes/class-status.php:468
+msgid "Hide errors from visitors"
+msgstr "訪問者からエラーを隠す"
+
+#: includes/class-status.php:473
+msgid "Error messages should not be shown to visitors."
+msgstr "エラーメッセージを訪問者に表示しないでください。"
+
+#: includes/class-status.php:482
+msgid "Active Plugins"
+msgstr "アクティブなプラグイン"
+
+#: includes/class-status.php:494
+msgid "Visit plugin homepage"
+msgstr "プラグインのホームページにアクセス"
+
+#: includes/class-status.php:505
+msgid "Network enabled"
+msgstr "ネットワーク対応"
+
+#: includes/class-status.php:512
+#, php-format
+msgid "by %s"
+msgstr "%s"
+
+#: includes/class-status.php:526
+msgid "UWP Pages"
+msgstr "UWPページ"
+
+#: includes/class-status.php:535
+#, php-format
+msgid "Edit %s page"
+msgstr "％sページを編集"
+
+#: includes/class-status.php:543
+msgid "Page not set"
+msgstr ""
+"ページが設定されていません\n"
+
+#: includes/class-status.php:546
+msgid "Page ID is set, but the page does not exist"
+msgstr ""
+"ページIDは設定されていますが、ページは存在しません\n"
+
+#: includes/class-status.php:549
+#, php-format
+msgid "Page visibility should be <a href=\"%s\" target=\"_blank\">public</a>"
+msgstr ""
+"ページの可視性は公開する必要があります\n"
+
+#: includes/class-status.php:555
+msgid "Page does not contains the shortcode."
+msgstr ""
+"ページにショートコードが含まれていません。\n"
+
+#: includes/class-status.php:573
+msgid "Theme"
+msgstr "テーマ"
+
+#: includes/class-status.php:578
+msgid "Name"
+msgstr ""
+"\n"
+"名"
+
+#: includes/class-status.php:582
+#: vendor/ayecode/wp-font-awesome-settings/wp-font-awesome-settings.php:369
+msgid "Version"
+msgstr "版"
+
+#: includes/class-status.php:587 includes/class-status.php:614
+#, php-format
+msgid "%s is available"
+msgstr "％sが利用可能です"
+
+#: includes/class-status.php:592
+msgid "Author URL"
+msgstr ""
+"著者URL\n"
+
+#: includes/class-status.php:596
+msgid "Child theme"
+msgstr ""
+"子テーマ\n"
+
+#: includes/class-status.php:598
+#, php-format
+msgid ""
+"If you are modifying userswp on a parent theme that you did not build "
+"personally we recommend using a child theme. See: <a href=\"%s\" "
+"target=\"_blank\">How to create a child theme</a>"
+msgstr ""
+"自分で作成しなかった親テーマのuserswpを変更する場合は、子テーマを使用することをお勧めします。 参照：<a href=\"%s\" "
+"target=\"_blank\">子テーマを作成する方法</a>"
+
+#: includes/class-status.php:605
+msgid "Parent theme name"
+msgstr ""
+"親テーマ名\n"
+
+#: includes/class-status.php:609
+msgid "Parent theme version"
+msgstr ""
+"親テーマバージョン\n"
+
+#: includes/class-status.php:619
+msgid "Parent theme author URL"
+msgstr ""
+"親テーマ作成者のURL\n"
+
+#: includes/class-status.php:628
+msgid "Templates"
+msgstr "テンプレート"
+
+#: includes/class-status.php:635 includes/class-status.php:664
+msgid "Overrides"
+msgstr ""
+"オーバーライド\n"
+
+#: includes/class-status.php:644
+#, php-format
+msgid "%1$s version %2$s is out of date. The core version is %3$s"
+msgstr "％1 $ sバージョン％2 $ sは古くなっています。 コアバージョンは％3 $ sです"
+
+#: includes/class-status.php:673
+msgid "Outdated templates"
+msgstr ""
+"古いテンプレート\n"
+
+#: includes/class-status.php:958
+msgid "Profile Page"
+msgstr ""
+"自己紹介ページ\n"
+
+#: includes/class-templates.php:509
+msgid "Update Account"
+msgstr "アカウントを更新する"
+
+#: includes/class-tools.php:163 includes/class-tools.php:297
+msgid "Processed Successfully"
+msgstr ""
+"正常に処理されました\n"
+
+#: includes/class-tools.php:490
+msgid "Fix User Data"
+msgstr "ユーザーデータの修正"
+
+#: includes/class-tools.php:491
+msgid "Fixes User Data if you were using the Beta version."
+msgstr "ベータ版を使用している場合、ユーザーデータを修正します。"
+
+#: includes/class-tools.php:494
+msgid "Run"
+msgstr ""
+"走る\n"
+
+#: includes/class-tools.php:509
+msgid "Dummy Users"
+msgstr "ダミーユーザー"
+
+#: includes/class-tools.php:510
+msgid "Dummy Users for Testing. Password for all dummy users:"
+msgstr "テスト用のダミーユーザー。 すべてのダミーユーザーのパスワード："
+
+#: includes/class-tools.php:523
+msgid "Create"
+msgstr "作成する"
+
+#: includes/class-user-notifications.php:30
+msgid "Disable account update notification."
+msgstr "アカウント更新通知を無効にします。"
+
+#: includes/class-user-notifications.php:54 includes/helpers/misc.php:736
+#: templates/change.php:10 templates/forgot.php:10 templates/reset.php:11
+msgid "Submit"
+msgstr "提出"
+
+#: includes/class-user-notifications.php:57
+msgid ""
+"You will see the options to disable the active notifications for UsersWP and "
+"it's add ons."
+msgstr ""
+"UsersWPとそのアドオンのアクティブな通知を無効にするオプションが表示されます。\n"
+
+#: includes/class-uwp-defaults.php:25
+msgid "[[#site_name#]] Please activate your account"
+msgstr "[[＃site_name＃]]アカウントを有効にしてください"
+
+#: includes/class-uwp-defaults.php:35
+msgid ""
+"Dear [#user_name#],\n"
+"\n"
+"Thank you for signing up with [#site_name#]\n"
+"\n"
+"[#login_details#]\n"
+"\n"
+"Thank you,\n"
+"[#site_name_url#]"
+msgstr ""
+"[＃user_name＃]様、\n"
+"\n"
+"[＃site_name＃]でお申し込みいただきありがとうございます\n"
+"\n"
+"[＃ログインの詳細＃]\n"
+"\n"
+"ありがとうございました、\n"
+"[＃site_name_url＃]"
+
+#: includes/class-uwp-defaults.php:53
+msgid "[[#site_name#]] Your Log In Details"
+msgstr "[[＃site_name＃]]ログインの詳細"
+
+#: includes/class-uwp-defaults.php:63
+msgid ""
+"Dear [#user_name#],\n"
+"\n"
+"You can log in  with the following information:\n"
+"\n"
+"[#login_details#]\n"
+"\n"
+"You can login here: [#login_url#]\n"
+"\n"
+"Thank you,\n"
+"[#site_name_url#]"
+msgstr ""
+"[＃user_name＃]様、\n"
+"\n"
+"次の情報でログインできます。\n"
+"\n"
+"[＃ログインの詳細＃]\n"
+"\n"
+"ここからログインできます：[＃login_url＃]\n"
+"\n"
+"ありがとうございました、\n"
+"[＃site_name_url＃]"
+
+#: includes/class-uwp-defaults.php:83
+msgid "[#site_name#] - Your new password"
+msgstr "[＃site_name＃]-新しいパスワード"
+
+#: includes/class-uwp-defaults.php:93
+msgid ""
+"Dear [#user_name#],\n"
+"\n"
+"[#login_details#]\n"
+"\n"
+"You can login here: [#login_url#]\n"
+"\n"
+"Thank you,\n"
+"[#site_name_url#]"
+msgstr ""
+"[＃user_name＃]様、\n"
+"\n"
+"[＃ログインの詳細＃]\n"
+"\n"
+"ここからログインできます：[＃login_url＃]\n"
+"\n"
+"ありがとうございました、\n"
+"[＃site_name_url＃]"
+
+#: includes/class-uwp-defaults.php:111
+msgid "[#site_name#] - Password has been changed"
+msgstr "[＃site_name＃]-パスワードが変更されました"
+
+#: includes/class-uwp-defaults.php:121
+msgid ""
+"Dear [#user_name#],\n"
+"\n"
+"Your password has been changed successfully.\n"
+"\n"
+"You can login here: [#login_url#]\n"
+"\n"
+"Thank you,\n"
+"[#site_name_url#]"
+msgstr ""
+"[＃user_name＃]様、\n"
+"\n"
+"パスワードが正常に変更されました。\n"
+"\n"
+"ここからログインできます：[＃login_url＃]\n"
+"\n"
+"ありがとうございました、\n"
+"[＃site_name_url＃]"
+
+#: includes/class-uwp-defaults.php:139
+msgid "[#site_name#] - Password has been reset"
+msgstr "[＃site_name＃]-パスワードがリセットされました"
+
+#: includes/class-uwp-defaults.php:149
+msgid ""
+"Dear [#user_name#],\n"
+"\n"
+"Your password has been reset.\n"
+"\n"
+"You can login here: [#login_url#]\n"
+"\n"
+"Thank you,\n"
+"[#site_name_url#]"
+msgstr ""
+"[＃user_name＃]様、\n"
+"\n"
+"あなたのパスワードはリセットされました。\n"
+"\n"
+"ここからログインできます：[＃login_url＃]\n"
+"\n"
+"ありがとうございました、\n"
+"[＃site_name_url＃]"
+
+#: includes/class-uwp-defaults.php:167
+msgid "[#site_name#] - Account has been updated"
+msgstr "[＃site_name＃]-アカウントが更新されました"
+
+#: includes/class-uwp-defaults.php:177
+msgid ""
+"Dear [#user_name#],\n"
+"\n"
+"Your account has been updated successfully.\n"
+"\n"
+"Thank you,\n"
+"[#site_name_url#]"
+msgstr ""
+"[＃user_name＃]様、\n"
+"\n"
+"アカウントは正常に更新されました。\n"
+"\n"
+"ありがとうございました、\n"
+"[＃site_name_url＃]"
+
+#: includes/class-uwp-defaults.php:193
+msgid "[[#site_name#]] New account registration"
+msgstr "[[＃site_name＃]]新しいアカウント登録"
+
+#: includes/class-uwp-defaults.php:203
+msgid ""
+"Dear [#user_name#],\n"
+"\n"
+"A user has been registered recently on your website.\n"
+"\n"
+"[#extras#]"
+msgstr ""
+"[＃user_name＃]様、\n"
+"\n"
+"ユーザーがあなたのウェブサイトに最近登録されました。\n"
+"\n"
+"[＃extras＃]"
+
+#: includes/class-uwp-privacy-exporters.php:27
+#: includes/class-uwp-privacy.php:24 includes/class-uwp-privacy.php:27
+msgid "UsersWP User Data"
+msgstr "UsersWPユーザーデータ"
+
+#: includes/class-uwp-privacy.php:36
+msgid "User data/profile"
+msgstr "ユーザーデータ/プロファイル"
+
+#: includes/class-uwp-privacy.php:38
+msgid "Example privacy texts."
+msgstr "プライバシーテキストの例。"
+
+#: includes/class-uwp-privacy.php:40
+msgid ""
+"We collect information about you during the registration and edit profile "
+"process on our site. This information may include, but is not limited to, "
+"your name, email address, phone number, address, IP and any other details "
+"that might be requested from you for the purpose of building your public "
+"profile."
+msgstr ""
+"当社は、登録中にあなたに関する情報を収集し、当社サイトでプロフィールを編集します。 "
+"この情報には、名前、メールアドレス、電話番号、住所、IP、および公開プロフィールを作成する目的でお客様から要求される可能性のあるその他の詳細が含まれますが、これらに限定されません。"
+
+#: includes/class-uwp-privacy.php:41
+msgid "Handling this data also allows us to:"
+msgstr "このデータを処理すると、次のことも可能になります。"
+
+#: includes/class-uwp-privacy.php:43
+msgid "- Send you important account/order/service information."
+msgstr "-重要なアカウント/注文/サービス情報を送信します。"
+
+#: includes/class-uwp-privacy.php:44
+msgid ""
+"- Display this information in a public facing manner (such as a web page or "
+"API request) and allow website users to search and view submitted "
+"information."
+msgstr ""
+"-この情報を一般向けの方法（WebページやAPIリクエストなど）で表示し、Webサイトユーザーが送信された情報を検索および表示できるようにします。"
+
+#: includes/class-uwp-privacy.php:45
+msgid "- Respond to your queries or complaints."
+msgstr "-質問や苦情に対応します。"
+
+#: includes/class-uwp-privacy.php:46
+msgid ""
+"- Set up and administer your account, provide technical and/or customer "
+"support, and to verify your identity. We do this on the basis of our "
+"legitimate business interests."
+msgstr ""
+"-アカウントを設定および管理し、技術サポートやカスタマーサポートを提供して、本人確認を行います。 これは、正当なビジネス上の利益に基づいて行われます。"
+
+#: includes/class-uwp-privacy.php:48
+msgid ""
+"Any profile information provided to this site may be displayed publicly."
+msgstr ""
+"このサイトに提供されたプロファイル情報はすべて公開されます。\n"
+
+#: includes/class-validation.php:76
+msgid "<strong>Error</strong>: Permission denied."
+msgstr "<strong>エラー</ strong>：許可が拒否されました。"
+
+#: includes/class-validation.php:110
+#, php-format
+msgid "<strong>Error</strong>: %s %s"
+msgstr "<strong>エラー</ strong>：％s％s"
+
+#: includes/class-validation.php:113
+msgid "<strong>Error</strong>: cannot be empty."
+msgstr "<strong>エラー</ strong>：空にすることはできません。"
+
+#: includes/class-validation.php:207 includes/class-validation.php:210
+msgid "<strong>Error</strong>: "
+msgstr "<strong>エラー</ strong>："
+
+#: includes/class-validation.php:217
+msgid "<strong>Error</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>エラー</ strong>：メールアドレスが正しくありません。"
+
+#: includes/class-validation.php:224
+msgid ""
+"<strong>Error</strong>: This email is already registered, please choose "
+"another one."
+msgstr "<strong>エラー</ strong>：このメールは既に登録されています。別のメールを選択してください。"
+
+#: includes/class-validation.php:230
+msgid "<strong>Error</strong>: This email doesn't exists."
+msgstr "<strong>エラー</ strong>：このメールは存在しません。"
+
+#: includes/class-validation.php:234
+msgid ""
+"<strong>Error</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr "<strong>エラー</ strong>：このユーザー名は無効な文字を使用しているため無効です。 有効なユーザー名を入力してください。"
+
+#: includes/class-validation.php:244
+msgid ""
+"<strong>Error</strong>: This username is already registered. Please choose "
+"another one."
+msgstr "<strong>エラー</ strong>：このユーザー名は既に登録されています。 別のものを選択してください。"
+
+#: includes/class-validation.php:282
+msgid "<strong>Error</strong>: Please enter your old password"
+msgstr "<strong>エラー</ strong>：古いパスワードを入力してください"
+
+#: includes/class-validation.php:289
+msgid "<strong>Error</strong>: Incorrect old password"
+msgstr "<strong>エラー</ strong>：古いパスワードが間違っています"
+
+#: includes/class-validation.php:294
+msgid "<strong>Error</strong>: Old password and new password are same"
+msgstr "<strong>エラー</ strong>：古いパスワードと新しいパスワードは同じです"
+
+#: includes/class-validation.php:303
+msgid "<strong>Error</strong>: Please enter your Email"
+msgstr "<strong>エラー</ strong>：メールアドレスを入力してください"
+
+#: includes/class-validation.php:308
+msgid "<strong>Error</strong>: Please fill Confirm Email field"
+msgstr "<strong>エラー</ strong>：[メールの確認]フィールドに入力してください"
+
+#: includes/class-validation.php:313
+msgid "<strong>Error</strong>: Email and Confirm email not match"
+msgstr "<strong>エラー</ strong>：メールと確認メールが一致しない"
+
+#: includes/class-validation.php:322
+msgid "Please enter a password"
+msgstr "パスワードを入力してください"
+
+#: includes/class-validation.php:326
+msgid "ERROR: Password must be 7 characters or more."
+msgstr "エラー：パスワードは7文字以上でなければなりません。"
+
+#: includes/class-validation.php:344
+msgid "ERROR: Passwords do not match."
+msgstr "エラー：パスワードが一致しません。"
+
+#: includes/helpers/misc.php:525
+#, php-format
+msgid ""
+"You can change your profile picture on your <a href=\"%s\">Profile Page</a>."
+msgstr "プロフィールページでプロフィール写真を変更できます。"
+
+#: includes/helpers/misc.php:588
+msgid "Change Avatar"
+msgstr "画像変更する"
+
+#: includes/helpers/misc.php:594
+msgid "Upload Avatar"
+msgstr "写真をアップロード"
+
+#: includes/helpers/misc.php:602
+msgid "Change Banner"
+msgstr ""
+"バナーを変更\n"
+
+#: includes/helpers/misc.php:608
+msgid "Upload Banner"
+msgstr "バナーをアップロード"
+
+#: includes/helpers/misc.php:652 includes/helpers/tabs.php:178
+msgid "Privacy"
+msgstr "プライバシー"
+
+#: includes/helpers/misc.php:685
+msgid "Field"
+msgstr "フィールド"
+
+#: includes/helpers/misc.php:688
+msgid "Is Public?"
+msgstr "パブリックですか？"
+
+#: includes/helpers/misc.php:715
+msgid "Hide profile from the users listing page."
+msgstr "ユーザーリスティングページからプロファイルを非表示にします。"
+
+#: includes/helpers/misc.php:730
+msgid "Make the whole profile private"
+msgstr "プロフィール全体を非公開にします"
+
+#: includes/helpers/misc.php:800
+msgid "Logout"
+msgstr "ログアウト"
+
+#: includes/helpers/misc.php:997
+msgid "Auto approve"
+msgstr ""
+"自動承認\n"
+
+#: includes/helpers/misc.php:998
+msgid "Auto approve + Auto Login"
+msgstr ""
+"自動承認+自動ログイン\n"
+
+#: includes/helpers/misc.php:999
+msgid "Require Email Activation"
+msgstr ""
+"メールのアクティベーションが必要\n"
+
+#: includes/helpers/misc.php:1050
+#, php-format
+msgid "I Accept <a href=\"%s\" target=\"_blank\">Terms and Conditions</a>."
+msgstr "<a href=\"%s\" target=\"_blank\">利用規約</a>に同意します。"
+
+#: includes/helpers/misc.php:1634
+msgid "more"
+msgstr "もっと"
+
+#: includes/helpers/misc.php:1635
+msgid "less"
+msgstr "もっと少なく"
+
+#: includes/helpers/misc.php:1793 widgets/output-location.php:77
+msgid "Users Page"
+msgstr "ユーザーページ"
+
+#: includes/helpers/misc.php:1794 widgets/output-location.php:78
+msgid "More info tab"
+msgstr "詳細情報タブ"
+
+#: includes/helpers/misc.php:1795
+msgid "Profile page own tab"
+msgstr ""
+"プロファイルページ独自のタブ\n"
+
+#: includes/helpers/misc.php:1796 widgets/output-location.php:79
+msgid "Profile side"
+msgstr ""
+"プロファイル側\n"
+
+#: includes/helpers/misc.php:1797
+msgid "Fieldset"
+msgstr "フィールドセット"
+
+#: includes/helpers/tabs.php:88 includes/helpers/tabs.php:137
+msgid "No "
+msgstr "いえ(No)"
+
+#: includes/helpers/tabs.php:171
+msgid "Notifications"
+msgstr "通知"
+
+#: includes/libraries/class-geodirectory-plugin.php:109
+msgid "Add Listing"
+msgstr "リスティングを追加"
+
+#: includes/libraries/class-geodirectory-plugin.php:128
+msgid "My Favorites"
+msgstr "私のお気に入り"
+
+#: includes/libraries/class-geodirectory-plugin.php:147
+msgid "My Listings"
+msgstr "私のリスティング"
+
+#: includes/libraries/class-geodirectory-plugin.php:166
+msgid "My Lists"
+msgstr "マイリスト"
+
+#: includes/libraries/class-geodirectory-plugin.php:206
+msgid "GeoDirectory"
+msgstr "GeoDirectory"
+
+#: includes/libraries/class-geodirectory-plugin.php:229
+msgid "GeoDirectory Settings"
+msgstr "GeoDirectoryの設定"
+
+#: includes/libraries/class-geodirectory-plugin.php:235
+msgid "CPT listings in profile"
+msgstr ""
+"プロファイル内のCPTリスティング\n"
+
+#: includes/libraries/class-geodirectory-plugin.php:236
+msgid "Choose the post types to show listings tab in UsersWP Profile"
+msgstr ""
+"投稿タイプを選択して、UsersWPプロファイルのリスティングタブを表示します\n"
+
+#: includes/libraries/class-geodirectory-plugin.php:244
+msgid "CPT reviews in profile"
+msgstr ""
+"プロファイル内のCPTレビュー\n"
+
+#: includes/libraries/class-geodirectory-plugin.php:245
+msgid "Choose the post types to show reviews tab in UsersWP Profile"
+msgstr ""
+"UsersWPプロファイルにレビュータブを表示する投稿タイプを選択します\n"
+
+#: includes/libraries/class-geodirectory-plugin.php:253
+msgid "CPT favorites in profile"
+msgstr ""
+"プロファイルのCPTお気に入り\n"
+
+#: includes/libraries/class-geodirectory-plugin.php:254
+msgid "Choose the post types to show favorites tab in UsersWP Profile"
+msgstr ""
+"投稿の種類を選択して、UsersWPプロファイルにお気に入りタブを表示します\n"
+
+#: includes/libraries/class-geodirectory-plugin.php:262
+msgid "Redirect my listing link from GD login box to UsersWP profile"
+msgstr "リスティングリンクをGDログインボックスからUsersWPプロファイルにリダイレクトする"
+
+#: includes/libraries/class-geodirectory-plugin.php:263
+msgid ""
+"If this option is selected, the my listing link from GD loginbox will "
+"redirect to listings tab of UsersWP profile."
+msgstr ""
+"このオプションが選択されている場合、GDログインボックスからの私のリスティングリンクは、UsersWPプロファイルのリスティングタブにリダイレクトされます。"
+
+#: includes/libraries/class-geodirectory-plugin.php:269
+msgid "Redirect favorite link from GD login box to UsersWP profile"
+msgstr ""
+"お気に入りのリンクをGDログインボックスからUsersWPプロファイルにリダイレクトする\n"
+
+#: includes/libraries/class-geodirectory-plugin.php:270
+msgid ""
+"If this option is selected, the favorite link from GD loginbox will redirect "
+"to favorites tab of UsersWP profile."
+msgstr "このオプションを選択すると、GDログインボックスからのお気に入りリンクは、UsersWPプロファイルのお気に入りタブにリダイレクトされます。"
+
+#: includes/libraries/class-geodirectory-plugin.php:303
+#: includes/libraries/class-geodirectory-plugin.php:522
+msgid "Listings"
+msgstr "リスティング"
+
+#: includes/libraries/class-geodirectory-plugin.php:304
+#: includes/libraries/class-geodirectory-plugin.php:531
+msgid "Reviews"
+msgstr ""
+"レビュー\n"
+
+#: includes/libraries/class-geodirectory-plugin.php:305
+#: includes/libraries/class-geodirectory-plugin.php:540
+msgid "Favorites"
+msgstr "お気に入り"
+
+#: includes/libraries/class-geodirectory-plugin.php:808
+#: includes/libraries/class-geodirectory-plugin.php:1041
+msgid "Edit Listing"
+msgstr "リスティングを編集"
+
+#: includes/libraries/class-geodirectory-plugin.php:813
+#: includes/libraries/class-geodirectory-plugin.php:1046
+msgid "Edit"
+msgstr "編集"
+
+#: includes/libraries/class-geodirectory-plugin.php:816
+#: includes/libraries/class-geodirectory-plugin.php:1049
+msgid "Delete Listing"
+msgstr ""
+"リスティングを削除\n"
+
+#: includes/libraries/class-geodirectory-plugin.php:837
+#: includes/libraries/class-geodirectory-plugin.php:915
+#: includes/libraries/class-geodirectory-plugin.php:1078
+#, php-format
+msgid "No %s found."
+msgstr "％sが見つかりません"
+
+#: includes/libraries/class-geodirectory-plugin.php:1071
+#, php-format
+msgid "No %s found"
+msgstr "％sが見つかりません"
+
+#: includes/libraries/class-geodirectory-plugin.php:1204
+msgid "Published"
+msgstr ""
+"公開済み\n"
+
+#: includes/libraries/class-geodirectory-plugin.php:1207
+msgid "Pending"
+msgstr "保留中"
+
+#: includes/libraries/class-geodirectory-plugin.php:1210
+msgid "Closed"
+msgstr "閉まっている"
+
+#: includes/libraries/class-geodirectory-plugin.php:1213
+msgid "Expired"
+msgstr "期限切れ"
+
+#: includes/libraries/class-geodirectory-plugin.php:1216
+msgid "Not published"
+msgstr ""
+"未公開\n"
+
+#: includes/libraries/class-geodirectory-plugin.php:1221
+msgid "Status: "
+msgstr "状態："
+
+#: includes/libraries/class-invoicing-plugin.php:61
+msgid "My Invoices"
+msgstr "私の請求書"
+
+#: includes/libraries/class-invoicing-plugin.php:65
+msgid "View Invoices"
+msgstr "請求書を表示"
+
+#: includes/libraries/class-invoicing-plugin.php:97
+#: includes/libraries/class-invoicing-plugin.php:120
+#: includes/libraries/class-invoicing-plugin.php:152
+msgid "Invoices"
+msgstr "請求書"
+
+#: includes/libraries/class-invoicing-plugin.php:181
+msgid "Invoice"
+msgstr "請求書"
+
+#: includes/libraries/class-invoicing-plugin.php:193
+msgid "Invoice Status: "
+msgstr "請求書ステータス："
+
+#: includes/libraries/class-invoicing-plugin.php:193
+msgid "(r)"
+msgstr "(r)"
+
+#: includes/libraries/class-invoicing-plugin.php:198
+msgid "Invoice Total: "
+msgstr "請求書合計："
+
+#: includes/libraries/class-invoicing-plugin.php:208
+msgid "Pay Now"
+msgstr "今払う"
+
+#: includes/libraries/class-invoicing-plugin.php:224
+msgid "Listing"
+msgstr "リスティング"
+
+#: includes/libraries/class-invoicing-plugin.php:250
+msgid "No Invoices Found."
+msgstr "請求書が見つかりません。"
+
+#: includes/libraries/wp-background-process.php:423
+#, php-format
+msgid "Every %d Minutes"
+msgstr "％d分ごと"
+
+#: templates/dashboard.php:6
+#, php-format
+msgid "Hello, %s"
+msgstr "こんにちは、％s"
+
+#: templates/dashboard.php:26
+msgid "Select an action"
+msgstr ""
+"アクションを選択\n"
+
+#: templates/dashboard.php:35
+msgid "My Profile"
+msgstr "私のプロフィール"
+
+#: templates/dashboard.php:39
+msgid "View Profile"
+msgstr "プロフィールを見る"
+
+#: templates/dashboard.php:46
+msgid "Edit Profile"
+msgstr "プロファイル編集"
+
+#: templates/dashboard.php:67 widgets/login.php:188
+#, php-format
+msgid "<a href=\"%1$s\">Log out</a>"
+msgstr "<a href=\"%1$s\">ログアウト</a>"
+
+#: templates/forgot.php:12 templates/register.php:13 templates/reset.php:17
+msgid "Already a member?"
+msgstr "すでにメンバーですか？"
+
+#: templates/forgot.php:12 templates/register.php:13 templates/reset.php:17
+msgid "Login here"
+msgstr "ここでログイン"
+
+#: templates/forgot.php:14 templates/login.php:23 templates/reset.php:19
+msgid "Not a member?"
+msgstr "未登録ですか？"
+
+#: templates/forgot.php:14 templates/login.php:23 templates/reset.php:19
+msgid "Create account"
+msgstr "アカウントを作成する"
+
+#: templates/login.php:17
+msgid "Remember Me"
+msgstr "自動ログオフ無し"
+
+#: templates/login.php:24
+msgid "Forgot password?"
+msgstr "パスワードをお忘れですか？"
+
+#: templates/no-users-found.php:10
+msgid "No users were found matching your selection."
+msgstr "選択に一致する教師は見つかりませんでした。"
+
+#: templates/register.php:11
+msgid "Create Account"
+msgstr "アカウントを作成する"
+
+#: templates/reset.php:14
+#, php-format
+msgid ""
+"You can not access this page directly. Follow the password reset link you "
+"received in your email. To request new password reset link <a href=\"%s\">"
+"visit here</a>."
+msgstr ""
+"このページに直接アクセスすることはできません。 メールで受け取ったパスワードリセットリンクに従ってください。 "
+"新しいパスワードリセットリンクをリクエストするには、<a href=\"%s\">こちら</a>をご覧ください。"
+
+#: vendor/ayecode/wp-font-awesome-settings/wp-font-awesome-settings.php:304
+msgid "You do not have sufficient permissions to access this page."
+msgstr "このページにアクセスするための十分な権限がありません。"
+
+#: vendor/ayecode/wp-font-awesome-settings/wp-font-awesome-settings.php:336
+msgid "Type"
+msgstr "タイプ"
+
+#: vendor/ayecode/wp-font-awesome-settings/wp-font-awesome-settings.php:341
+msgid "CSS (default)"
+msgstr ""
+"CSS（デフォルト）\n"
+
+#: vendor/ayecode/wp-font-awesome-settings/wp-font-awesome-settings.php:344
+msgid "Kits (settings managed on fontawesome.com)"
+msgstr "キット（fontawesome.comで管理される設定）"
+
+#: vendor/ayecode/wp-font-awesome-settings/wp-font-awesome-settings.php:351
+msgid "Kit URL"
+msgstr "キットURL"
+
+#: vendor/ayecode/wp-font-awesome-settings/wp-font-awesome-settings.php:359
+#, php-format
+msgid "Requires a free account with Font Awesome. %sGet kit url%s"
+msgstr ""
+"Font Awesomeの無料アカウントが必要です。 ％sキットのURLを取得％s\n"
+
+#: vendor/ayecode/wp-font-awesome-settings/wp-font-awesome-settings.php:373
+#, php-format
+msgid "Latest - %s (default)"
+msgstr "最新-％s（デフォルト）"
+
+#: vendor/ayecode/wp-font-awesome-settings/wp-font-awesome-settings.php:402
+msgid "Enqueue"
+msgstr "エンキュー"
+
+#: vendor/ayecode/wp-font-awesome-settings/wp-font-awesome-settings.php:406
+msgid "Frontend + Backend (default)"
+msgstr "フロントエンド+バックエンド（デフォルト）"
+
+#: vendor/ayecode/wp-font-awesome-settings/wp-font-awesome-settings.php:408
+msgid "Frontend"
+msgstr "フロントエンド"
+
+#: vendor/ayecode/wp-font-awesome-settings/wp-font-awesome-settings.php:410
+msgid "Backend"
+msgstr ""
+"バックエンド\n"
+
+#: vendor/ayecode/wp-font-awesome-settings/wp-font-awesome-settings.php:417
+msgid "Enable pro"
+msgstr "プロを有効にする"
+
+#: vendor/ayecode/wp-font-awesome-settings/wp-font-awesome-settings.php:424
+#, php-format
+msgid "Requires a subscription. %sLearn more%s %sManage my allowed domains%s"
+msgstr ""
+"サブスクリプションが必要です。 ％s詳細％s％s許可ドメインを管理％s\n"
+
+#: vendor/ayecode/wp-font-awesome-settings/wp-font-awesome-settings.php:436
+msgid "Enable v4 shims compatibility"
+msgstr "v4シムの互換性を有効にする"
+
+#: vendor/ayecode/wp-font-awesome-settings/wp-font-awesome-settings.php:442
+msgid ""
+"This enables v4 classes to work with v5, sort of like a band-aid until "
+"everyone has updated everything to v5."
+msgstr "これにより、すべての人がv5にすべて更新するまで、v4クラスがv5で動作し、バンドエイドのようなものになります。"
+
+#: vendor/ayecode/wp-font-awesome-settings/wp-font-awesome-settings.php:448
+msgid "Enable JS pseudo elements (not recommended)"
+msgstr "JS擬似要素を有効にする（非推奨）"
+
+#: vendor/ayecode/wp-font-awesome-settings/wp-font-awesome-settings.php:455
+msgid ""
+"Used only with the JS version, this will make pseudo-elements work but can "
+"be CPU intensive on some sites."
+msgstr "JSバージョンでのみ使用され、これは擬似要素を機能させますが、一部のサイトではCPUを集中的に使用する可能性があります。"
+
+#: vendor/ayecode/wp-font-awesome-settings/wp-font-awesome-settings.php:461
+msgid "Dequeue"
+msgstr "キューから削除する"
+
+#: vendor/ayecode/wp-font-awesome-settings/wp-font-awesome-settings.php:467
+msgid ""
+"This will try to dequeue any other Font Awesome versions loaded by other "
+"sources if they are added with `font-awesome` or `fontawesome` in the name."
+msgstr ""
+"これは、名前に「font-awesome」または「fontawesome」が追加されている場合、他のソースによってロードされた他のFont "
+"Awesomeバージョンをデキューしようとします。"
+
+#: vendor/ayecode/wp-super-duper/wp-super-duper.php:139
+msgid "Select shortcode"
+msgstr "ショートコードを選択"
+
+#: vendor/ayecode/wp-super-duper/wp-super-duper.php:158
+msgid "Insert shortcode"
+msgstr "ショートコードを挿入"
+
+#: vendor/ayecode/wp-super-duper/wp-super-duper.php:161
+msgid "Copy shortcode"
+msgstr "ショートコードをコピー"
+
+#: vendor/ayecode/wp-super-duper/wp-super-duper.php:360
+#: vendor/ayecode/wp-super-duper/wp-super-duper.php:980
+msgid "Advanced Settings"
+msgstr "高度な設定"
+
+#: vendor/ayecode/wp-super-duper/wp-super-duper.php:1228
+#, php-format
+msgid "Placeholder for: %s"
+msgstr ""
+"プレースホルダー：％s\n"
+
+#: vendor/ayecode/wp-super-duper/wp-super-duper.php:1513
+msgid "Placeholder for: "
+msgstr ""
+"プレースホルダー：\n"
+
+#: widgets/account.php:27
+msgid "UWP > Account"
+msgstr "UWP>アカウント"
+
+#: widgets/account.php:34 widgets/authorbox.php:34 widgets/change.php:34
+#: widgets/forgot.php:34 widgets/login.php:31 widgets/profile.php:35
+#: widgets/register.php:29 widgets/reset.php:34 widgets/users.php:34
+msgid "Widget title"
+msgstr ""
+"ウィジェットのタイトル\n"
+
+#: widgets/account.php:35 widgets/authorbox.php:35 widgets/change.php:35
+#: widgets/forgot.php:35 widgets/profile-actions.php:35
+#: widgets/profile-tabs.php:36 widgets/profile.php:36 widgets/register.php:30
+#: widgets/reset.php:35 widgets/user-actions.php:36 widgets/users-search.php:36
+#: widgets/users.php:35
+msgid "Enter widget title."
+msgstr "ウィジェットのタイトルを入力してください。"
+
+#: widgets/authorbox.php:27
+msgid "UWP > Author Box"
+msgstr "UWP>著者ボックス"
+
+#: widgets/change.php:27
+msgid "UWP > Change"
+msgstr "UWP>変更"
+
+#: widgets/forgot.php:27
+msgid "UWP > Forgot"
+msgstr "UWP>忘れた"
+
+#: widgets/login.php:24
+msgid "UWP > Login"
+msgstr "UWP>ログイン"
+
+#: widgets/login.php:32
+msgid "Enter widget title"
+msgstr "ウィジェットのタイトルを入力してください"
+
+#: widgets/login.php:39
+msgid "Login text"
+msgstr "ログインテキスト"
+
+#: widgets/login.php:40
+msgid "Enter the login text"
+msgstr "ログインテキストを入力します"
+
+#: widgets/login.php:48
+msgid "Form padding"
+msgstr "フォームのパディング"
+
+#: widgets/login.php:49
+msgid ""
+"Enter the px value for the form padding, default is 40, 10 looks better in "
+"sidbars."
+msgstr "フォームのパディングのpx値を入力します。デフォルトは40です。サイドバーでは10になります。"
+
+#: widgets/login.php:53
+msgid "default 40, 10 is better in sidebars"
+msgstr ""
+"デフォルトの40、10はサイドバーで優れています\n"
+
+#: widgets/login.php:57
+msgid "Logged in show"
+msgstr "ログインした表示"
+
+#: widgets/login.php:58
+msgid "Wha to show when logged in."
+msgstr ""
+"ログイン時に表示するもの。\n"
+
+#: widgets/login.php:61
+msgid "User Dashboard (default)"
+msgstr "ユーザーダッシュボード（デフォルト）"
+
+#: widgets/login.php:62
+msgid "Simple username and logout link"
+msgstr "シンプルなユーザー名とログアウトリンク"
+
+#: widgets/login.php:63
+msgid "Nothing"
+msgstr "なし"
+
+#: widgets/login.php:79
+msgid "Disable GeoDirectory links from the user dashboard."
+msgstr "ユーザーダッシュボードからGeoDirectoryリンクを無効にします。"
+
+#: widgets/login.php:92
+msgid "Disable WP Invoicing links from the user dashboard."
+msgstr "ユーザーダッシュボードからWP請求リンクを無効にします。"
+
+#: widgets/login.php:182
+msgid "Logged in as "
+msgstr "としてログイン"
+
+#: widgets/output-location.php:27
+msgid "UWP > Output Location"
+msgstr "UWP>出力場所"
+
+#: widgets/output-location.php:34
+msgid "Location:"
+msgstr "場所："
+
+#: widgets/output-location.php:35
+msgid "The location type to output."
+msgstr "出力する場所の種類。"
+
+#: widgets/profile-actions.php:27
+msgid "UWP > Profile Actions"
+msgstr "UWP>プロファイルアクション"
+
+#: widgets/profile-actions.php:34 widgets/profile-tabs.php:35
+#: widgets/user-actions.php:35 widgets/users-search.php:35
+msgid "Title"
+msgstr "タイトル"
+
+#: widgets/profile-header.php:27
+msgid "UWP > Profile Header"
+msgstr "UWP>プロファイルヘッダー"
+
+#: widgets/profile-header.php:35
+msgid "Hide cover image:"
+msgstr "カバー画像を隠す："
+
+#: widgets/profile-header.php:36
+msgid "Hide cover image in user profile page."
+msgstr "ユーザープロフィールページでカバー画像を非表示にします。"
+
+#: widgets/profile-header.php:44
+msgid "Hide avatar image:"
+msgstr "アバター画像を隠す："
+
+#: widgets/profile-header.php:45
+msgid "Hide avatar image in user profile page."
+msgstr "ユーザープロフィールページでアバター画像を非表示にします。"
+
+#: widgets/profile-header.php:53
+msgid "Allow to change cover and avatar:"
+msgstr "カバーとアバターの変更を許可："
+
+#: widgets/profile-header.php:54
+msgid "Allow user to change cover and avatar image in profile page."
+msgstr "ユーザーがプロフィールページで表紙とアバターの画像を変更できるようにします。"
+
+#: widgets/profile-section.php:28
+msgid "UWP > Profile Section"
+msgstr "UWP>プロファイルセクション"
+
+#: widgets/profile-section.php:36
+msgid "Type:"
+msgstr "タイプ："
+
+#: widgets/profile-section.php:37
+msgid "This is the opening or closing section."
+msgstr "これは、開始セクションまたは終了セクションです。"
+
+#: widgets/profile-section.php:40
+msgid "Open"
+msgstr "開いた"
+
+#: widgets/profile-section.php:41
+msgid "Close"
+msgstr "閉じる"
+
+#: widgets/profile-section.php:48
+msgid "Position:"
+msgstr ""
+"ポジション：\n"
+
+#: widgets/profile-section.php:49
+msgid "This is position of the section."
+msgstr "これはセクションの位置です。"
+
+#: widgets/profile-section.php:52
+msgid "Left"
+msgstr "左"
+
+#: widgets/profile-section.php:53
+msgid "Right"
+msgstr "右"
+
+#: widgets/profile-section.php:54
+msgid "Full"
+msgstr "いっぱい"
+
+#: widgets/profile-section.php:89
+msgid "closing"
+msgstr "閉鎖"
+
+#: widgets/profile-section.php:89
+msgid "opening"
+msgstr "オープニング"
+
+#: widgets/profile-section.php:90
+#, php-format
+msgid ""
+"Archive Item Section: <b>%s : %s</b> <small>(requires %s section to work)"
+"</small>"
+msgstr "アーカイブアイテムセクション：<b>％s：％s </ b> <small>（動作するには％sセクションが必要です）</ small>"
+
+#: widgets/profile-social.php:27
+msgid "UWP > Profile Social"
+msgstr "UWP>プロフィールソーシャル"
+
+#: widgets/profile-social.php:34
+msgid "Exclude Fields"
+msgstr "フィールドを除外"
+
+#: widgets/profile-social.php:35
+msgid ""
+"Enter comma separated field keys to exclude from displaying in social "
+"location."
+msgstr "ソーシャルロケーションでの表示から除外するには、コンマ区切りのフィールドキーを入力します。"
+
+#: widgets/profile-tabs.php:27
+msgid "UWP > Profile Tabs"
+msgstr "UWP>プロファイルタブ"
+
+#: widgets/profile.php:27
+msgid "UWP > Profile"
+msgstr "UWP>プロファイル"
+
+#: widgets/register.php:22
+msgid "UWP > Register"
+msgstr "UWP>登録"
+
+#: widgets/reset.php:27
+msgid "UWP > Reset"
+msgstr "UWP>リセット"
+
+#: widgets/user-actions.php:27
+msgid "UWP > User Actions"
+msgstr "UWP>ユーザーアクション"
+
+#: widgets/user-avatar.php:27
+msgid "UWP > User Avatar"
+msgstr "UWP>ユーザーアバター"
+
+#: widgets/user-avatar.php:35 widgets/user-title.php:35
+msgid "Header Tag:"
+msgstr "ヘッダータグ："
+
+#: widgets/user-avatar.php:36
+msgid "Header tag for the user name."
+msgstr "ユーザー名のヘッダータグ。"
+
+#: widgets/user-avatar.php:52
+msgid "Avatar size:"
+msgstr "画像サイズ："
+
+#: widgets/user-avatar.php:53
+msgid "Avatar image size in px. Default is 50px."
+msgstr "ピクセル単位のアバター画像サイズ。 デフォルトは50pxです。"
+
+#: widgets/user-avatar.php:60
+msgid "Link to profile?:"
+msgstr "プロフィールへのリンク？："
+
+#: widgets/user-avatar.php:61
+msgid "Link avatar image and name to user's profile page."
+msgstr "アバターの画像と名前をユーザーのプロファイルページにリンクします。"
+
+#: widgets/user-avatar.php:69 widgets/user-meta.php:44
+#: widgets/user-title.php:50
+msgid "User ID:"
+msgstr "ユーザーID："
+
+#: widgets/user-avatar.php:70
+msgid "Leave blank to use current user ID."
+msgstr "現在のユーザーIDを使用するには、空白のままにします。"
+
+#: widgets/user-avatar.php:109
+msgid "Guest"
+msgstr "ゲスト"
+
+#: widgets/user-meta.php:27
+msgid "UWP > User Meta"
+msgstr "UWP>ユーザーメタ"
+
+#: widgets/user-meta.php:35
+msgid "Key:"
+msgstr "キー："
+
+#: widgets/user-meta.php:36
+msgid "This is the custom field key."
+msgstr "これはカスタムフィールドキーです。"
+
+#: widgets/user-meta.php:45 widgets/user-title.php:51
+msgid ""
+"Leave blank to use current user ID. For profile page it will take displayed "
+"user ID"
+msgstr "現在のユーザーIDを使用するには、空白のままにします。 プロファイルページの場合は、表示されたユーザーIDが使えます"
+
+#: widgets/user-meta.php:52
+msgid "Show:"
+msgstr "表示："
+
+#: widgets/user-meta.php:53
+msgid "What part of the post meta to show."
+msgstr ""
+"ポストメタのどの部分を表示するか。\n"
+
+#: widgets/user-meta.php:56
+msgid "Icon + Label + Value"
+msgstr "アイコン+ラベル+値"
+
+#: widgets/user-meta.php:57
+msgid "Icon + Value"
+msgstr "アイコン+値"
+
+#: widgets/user-meta.php:58
+msgid "Label + Value"
+msgstr "ラベル+値"
+
+#: widgets/user-meta.php:59
+msgid "Label"
+msgstr "ラベル"
+
+#: widgets/user-meta.php:60
+msgid "Value"
+msgstr "値"
+
+#: widgets/user-meta.php:61
+msgid "Value (strip_tags)"
+msgstr "値（strip_tags）"
+
+#: widgets/user-meta.php:68
+msgid "Extra class:"
+msgstr "追加クラス："
+
+#: widgets/user-meta.php:69
+msgid "Give the wrapper an extra class so you can style things as you want."
+msgstr "ラッパーに追加のクラスを与えて、必要に応じてスタイルを設定できます。"
+
+#: widgets/user-meta.php:94
+msgid "Select Key"
+msgstr "キーを選択"
+
+#: widgets/user-title.php:27
+msgid "UWP > User Title"
+msgstr "UWP>ユーザータイトル"
+
+#: widgets/user-title.php:36
+msgid "Header tag for the user title."
+msgstr "ユーザータイトルのヘッダータグ。"
+
+#: widgets/users-loop-actions.php:27
+msgid "UWP > User Loop Action"
+msgstr "UWP>ユーザーループアクション"
+
+#: widgets/users-loop.php:26
+msgid "UWP > Users Loop"
+msgstr "UWP>ユーザーループ"
+
+#: widgets/users-search.php:27
+msgid "UWP > Users Search Form"
+msgstr "UWP>ユーザー検索フォーム"
+
+#: widgets/users.php:27
+msgid "UWP > Users"
+msgstr "UWP>ユーザー"
